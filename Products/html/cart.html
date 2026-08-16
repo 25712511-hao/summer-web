@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Giỏ hàng</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">My Shop</a>
+      <div class="header-search">
+        <input type="text" placeholder="Tìm kiếm sản phẩm...">
+        <button class="search-button" type="button" aria-label="Tìm kiếm">🔍</button>
+      </div>
+      <div class="header-actions">
+        <a href="login.html" class="header-btn">Login</a>
+        <a href="cart.html" class="header-btn">Giỏ hàng</a>
+        <button type="button" class="header-location-btn">Tìm vị trí</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="category-nav">
+    <div class="category-nav-inner">
+      <a href="#" data-category="dien-thoai">Điện thoại</a>
+      <a href="#" data-category="laptop">Laptop</a>
+      <a href="#" data-category="phu-kien">Phụ kiện</a>
+      <a href="#" data-category="smartwatch">Smartwatch</a>
+      <a href="#" data-category="dong-ho">Đồng hồ</a>
+      <a href="#" data-category="tablet">Tablet</a>
+      <a href="#" data-category="may-cu">Máy cũ, Thu cũ</a>
+      <a href="#" data-category="man-hinh">Màn hình, Máy in</a>
+      <a href="#" data-category="sim">Sim, Thẻ cào</a>
+      <a href="#" data-category="dich-vu">Dịch vụ liên ích</a>
+    </div>
+  </nav>
+
+  <main class="container flex-row">
+    <div class="box" id="cartBoxMain">
+      <h2 id="cartTitle">Giỏ hàng của bạn (<span id="cartCount">0</span> sản phẩm)</h2>
+      <table class="w-100" id="cartTable">
+        <tr>
+          <th>Sản phẩm</th>
+          <th>Đơn giá</th>
+          <th>Số lượng</th>
+          <th>Thành tiền</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td colspan="5" id="cartEmptyCell">
+            <div id="cartEmptyIcon">🛒</div>
+            <div id="cartEmptyTitle">Giỏ hàng trống</div>
+            <p id="cartEmptyText">Bạn chưa thêm sản phẩm nào vào giỏ hàng.</p>
+            <a href="products.html" id="cartEmptyLink">Tiếp tục mua sắm</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="box" id="checkoutBox">
+      <h2 id="checkoutTitle">Thanh toán</h2>
+      <div class="price-row">
+        <span class="price-label">Tổng tiền hàng:</span>
+        <span class="price-value" id="subtotal">0 ₫</span>
+      </div>
+      <div class="price-row">
+        <span class="price-label">Phí vận chuyển:</span>
+        <span class="price-value" id="shippingValue">Miễn phí</span>
+      </div>
+      <div class="price-row">
+        <span class="price-label">Giảm giá:</span>
+        <span class="price-value" id="discountValue">0 ₫</span>
+      </div>
+      <hr id="checkoutDivider">
+      <div class="price-row" id="totalRow">
+        <span id="totalLabel">Tổng cộng:</span>
+        <span id="total">0 ₫</span>
+      </div>
+
+      <input type="text" id="couponInput" placeholder="Mã khuyến mãi" disabled>
+      <button class="w-100" id="applyCouponBtn" disabled>Áp dụng mã</button>
+      <button class="w-100" id="checkoutBtn" disabled>Tiến hành thanh toán</button>
+
+      <a href="products.html" id="checkoutContinueLink">Tiếp tục mua sắm</a>
+    </div>
+  </main>
+
+  <footer><p>© 2026 My Shop</p></footer>
+
+  <script>
+    const DISCOUNT_RATE = 0.075; // 7.5% giảm giá
+
+    function formatPrice(num) {
+      return new Intl.NumberFormat('vi-VN').format(num);
+    }
+
+    function renderCart() {
+      const cart = JSON.parse(localStorage.getItem('cart')) || [];
+      const cartTable = document.getElementById('cartTable');
+
+      if (cart.length === 0) {
+        cartTable.innerHTML = `<tr>
+          <th>Sản phẩm</th><th>Đơn giá</th><th>Số lượng</th><th>Thành tiền</th><th></th>
+        </tr>
+        <tr>
+          <td colspan="5" id="cartEmptyCell">
+            <div id="cartEmptyIcon">🛒</div>
+            <div id="cartEmptyTitle">Giỏ hàng trống</div>
+            <p id="cartEmptyText">Bạn chưa thêm sản phẩm nào vào giỏ hàng.</p>
+            <a href="products.html" id="cartEmptyLink">Tiếp tục mua sắm</a>
+          </td>
+        </tr>`;
+        return;
+      }
+
+      let html = `<tr>
+        <th>Sản phẩm</th><th>Đơn giá</th><th>Số lượng</th><th>Thành tiền</th><th></th>
+      </tr>`;
+
+      cart.forEach((item, idx) => {
+        const itemTotal = item.price * item.qty;
+        html += `
+        <tr class="cart-item" data-index="${idx}" data-price="${item.price}">
+          <td>
+            <div class="cart-item-content">
+              <div class="product-image cart-item-image">${item.emoji}</div>
+              <div>
+                <strong>${item.name}</strong>
+              </div>
+            </div>
+          </td>
+          <td><strong class="unit-price">${formatPrice(item.price)} ₫</strong></td>
+          <td>
+            <div class="cart-qty-control">
+              <button class="qty-btn qty-minus">−</button>
+              <span class="qty-value">${item.qty}</span>
+              <button class="qty-btn qty-plus">+</button>
+            </div>
+          </td>
+          <td><strong class="total-price">${formatPrice(itemTotal)} ₫</strong></td>
+          <td><button class="btn-delete delete-btn">Xóa</button></td>
+        </tr>`;
+      });
+
+      cartTable.innerHTML = html;
+
+      document.querySelectorAll('.qty-plus').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const row = btn.closest('.cart-item');
+          const idx = parseInt(row.dataset.index);
+          cart[idx].qty += 1;
+          localStorage.setItem('cart', JSON.stringify(cart));
+          renderCart();
+          updateTotals();
+        });
+      });
+
+      document.querySelectorAll('.qty-minus').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const row = btn.closest('.cart-item');
+          const idx = parseInt(row.dataset.index);
+          if (cart[idx].qty > 1) {
+            cart[idx].qty -= 1;
+            localStorage.setItem('cart', JSON.stringify(cart));
+            renderCart();
+            updateTotals();
+          } else {
+            alert('Số lượng phải >= 1. Ấn nút Xóa để xóa sản phẩm!');
+          }
+        });
+      });
+
+      document.querySelectorAll('.btn-delete').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const row = btn.closest('.cart-item');
+          const idx = parseInt(row.dataset.index);
+          if (confirm('Bạn chắc chắn muốn xóa sản phẩm này?')) {
+            cart.splice(idx, 1);
+            localStorage.setItem('cart', JSON.stringify(cart));
+            renderCart();
+            updateTotals();
+          }
+        });
+      });
+    }
+
+    function updateTotals() {
+      const cart = JSON.parse(localStorage.getItem('cart')) || [];
+      let subtotal = 0;
+
+      cart.forEach(item => {
+        subtotal += item.price * item.qty;
+      });
+
+      const discount = Math.round(subtotal * DISCOUNT_RATE);
+      const total = subtotal - discount;
+
+      document.getElementById('cartCount').textContent = cart.length;
+      document.getElementById('subtotal').textContent = formatPrice(subtotal) + ' ₫';
+      document.getElementById('discountValue').textContent = '-' + formatPrice(discount) + ' ₫';
+      document.getElementById('total').textContent = formatPrice(total) + ' ₫';
+
+      const inputs = document.querySelectorAll('input[disabled], button[disabled]');
+      if (cart.length > 0) {
+        inputs.forEach(el => {
+          el.removeAttribute('disabled');
+          el.style.opacity = '1';
+        });
+      }
+    }
+
+    renderCart();
+    updateTotals();
+
+    window.addEventListener('storage', () => {
+      renderCart();
+      updateTotals();
+    });
+  </script>
+
+  <script>
+    document.querySelectorAll('.category-nav a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.location.href = 'products.html';
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Đăng ký</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">My Shop</a>
+      <div class="header-search">
+        <input type="text" placeholder="Tìm kiếm sản phẩm...">
+        <button type="button" aria-label="Tìm kiếm">🔍</button>
+      </div>
+      <div class="header-actions">
+        <a href="login.html" class="header-btn">Login</a>
+        <a href="cart.html" class="header-btn">Giỏ hàng</a>
+        <button type="button" class="header-location-btn">Tìm vị trí</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="box form-box mt-20">
+      <h2 id="loginTitle">Đăng ký</h2>
+      <p id="loginSubtitle">Tạo tài khoản mới cho bạn</p>
+
+      <form>
+        <div class="login-field-group">
+          <label for="fullName">Họ và tên</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Nguyễn Văn A" required>
+        </div>
+
+        <div class="login-field-group">
+          <label for="signEmail">Email</label>
+          <input type="email" id="signEmail" name="email" placeholder="example@email.com" required>
+        </div>
+
+        <div class="login-field-group">
+          <label for="signPassword">Mật khẩu</label>
+          <input type="password" id="signPassword" name="password" placeholder="Nhập mật khẩu" required>
+        </div>
+
+        <div class="login-field-group">
+          <label for="confirmPassword">Xác nhận mật khẩu</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Nhập lại mật khẩu" required>
+        </div>
+
+        <button class="w-100" id="loginBtn">Đăng ký</button>
+      </form>
+
+      <div id="loginDivider">
+        <div id="loginDividerLeft"></div>
+        <span id="loginDividerText">HOẶC</span>
+        <div id="loginDividerRight"></div>
+      </div>
+
+      <button class="social-login-btn" id="facebookLoginBtn">🔵 Đăng ký bằng Facebook</button>
+      <button class="social-login-btn" id="googleLoginBtn">🔎 Đăng ký bằng Google</button>
+
+      <p id="registerText">
+        Bạn đã có tài khoản?
+        <a href="login.html" id="registerLink">Đăng nhập</a>
+      </p>
+    </div>
+  </main>
+
+  <footer><p>© 2026 My Shop</p></footer>
+</body>
+</html>

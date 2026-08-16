@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hồ sơ người dùng</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">My Shop</a>
+      <div class="header-search">
+        <input type="text" placeholder="Tìm kiếm sản phẩm...">
+        <button class="search-button" id="search-button" type="button" aria-label="Tìm kiếm">🔍</button>
+      </div>
+      <div class="header-actions">
+        <a href="login.html" class="header-btn">Login</a>
+        <a href="cart.html" class="header-btn">Giỏ hàng</a>
+        <button type="button" class="header-location-btn">Tìm vị trí</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="category-nav">
+    <div class="category-nav-inner">
+      <a href="#" data-category="dien-thoai">Điện thoại</a>
+      <a href="#" data-category="laptop">Laptop</a>
+      <a href="#" data-category="phu-kien">Phụ kiện</a>
+      <a href="#" data-category="smartwatch">Smartwatch</a>
+      <a href="#" data-category="dong-ho">Đồng hồ</a>
+      <a href="#" data-category="tablet">Tablet</a>
+      <a href="#" data-category="may-cu">Máy cũ, Thu cũ</a>
+      <a href="#" data-category="man-hinh">Màn hình, Máy in</a>
+      <a href="#" data-category="sim">Sim, Thẻ cào</a>
+      <a href="#" data-category="dich-vu">Dịch vụ liên ích</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="box form-box mt-20 text-center">
+      <div class="box" id="profileAvatar">👤</div>
+      <h2 id="profileName">Nguyễn Văn A</h2>
+      <p id="profileMember">Thành viên VIP từ 2023</p>
+
+      <div id="profileStatsCard">
+        <div id="profileStatsRow">
+          <div class="profile-stat-box">
+            <div class="profile-stat-value">245</div>
+            <div class="profile-stat-label">Đơn hàng</div>
+          </div>
+          <div class="profile-divider"></div>
+          <div class="profile-stat-box">
+            <div class="profile-stat-value">1.245.600 ₫</div>
+            <div class="profile-stat-label">Tích điểm</div>
+          </div>
+          <div class="profile-divider"></div>
+          <div class="profile-stat-box">
+            <div class="profile-stat-value">12</div>
+            <div class="profile-stat-label">Yêu thích</div>
+          </div>
+        </div>
+      </div>
+
+      <form id="profileForm">
+        <h3 id="profileSectionTitle">Thông tin cá nhân</h3>
+
+        <div id="profilePersonalGrid">
+          <div>
+            <label>Họ</label>
+            <input type="text" placeholder="Nguyễn" value="">
+          </div>
+          <div>
+            <label>Tên</label>
+            <input type="text" placeholder="Văn A" value="">
+          </div>
+        </div>
+
+        <div>
+          <label>Email</label>
+          <input type="email" placeholder="example@email.com" value="">
+        </div>
+
+        <div class="profile-field-spaced">
+          <label>Số điện thoại</label>
+          <input type="tel" placeholder="0123456789" value="">
+        </div>
+
+        <div class="profile-field-spaced">
+          <label>Ngày sinh</label>
+          <input type="date" value="">
+        </div>
+
+        <div class="profile-field-vertical">
+          <label>Giới tính</label>
+          <div id="profileGenderRow">
+            <label class="profile-gender-option">
+              <input type="radio" name="gender" value="male" checked class="profile-gender-input">
+              Nam
+            </label>
+            <label class="profile-gender-option">
+              <input type="radio" name="gender" value="female" class="profile-gender-input">
+              Nữ
+            </label>
+            <label class="profile-gender-option">
+              <input type="radio" name="gender" value="other" class="profile-gender-input">
+              Khác
+            </label>
+          </div>
+        </div>
+
+        <h3 id="profileAddressSectionTitle">Địa chỉ</h3>
+
+        <div class="profile-field-spaced">
+          <label>Địa chỉ chi tiết</label>
+          <input type="text" placeholder="Số nhà, đường..." value="">
+        </div>
+
+        <div id="profileAddressGrid">
+          <div>
+            <label>Thành phố</label>
+            <input type="text" placeholder="Hà Nội" value="">
+          </div>
+          <div>
+            <label>Quận/Huyện</label>
+            <input type="text" placeholder="Đống Đa" value="">
+          </div>
+        </div>
+
+        <div class="profile-field-vertical">
+          <label>Mã bưu chính</label>
+          <input type="text" placeholder="100000" value="">
+        </div>
+
+        <h3 id="profileSecuritySectionTitle">Bảo mật</h3>
+
+        <div class="profile-field-vertical">
+          <label>Mật khẩu hiện tại</label>
+          <input type="password" placeholder="Nhập mật khẩu hiện tại">
+        </div>
+
+        <div id="profilePasswordGrid">
+          <div>
+            <label>Mật khẩu mới</label>
+            <input type="password" placeholder="Nhập mật khẩu mới">
+          </div>
+          <div>
+            <label>Xác nhận mật khẩu</label>
+            <input type="password" placeholder="Xác nhận mật khẩu mới">
+          </div>
+        </div>
+
+        <div id="profileActionRow">
+          <button type="submit" class="w-100" id="updateProfileBtn">Cập nhật hồ sơ</button>
+          <button type="reset" id="cancelProfileBtn">Hủy</button>
+        </div>
+      </form>
+
+      <div id="profileDangerActions">
+        <button class="danger-btn" id="logoutBtn">Đăng xuất</button>
+        <button class="danger-btn" id="deleteAccountBtn">Xóa tài khoản</button>
+      </div>
+    </div>
+  </main>
+
+  <footer><p>© 2026 My Shop</p></footer>
+
+  <script>
+    document.querySelectorAll('.category-nav a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.location.href = 'products.html';
+      });
+    });
+  </script>
+</body>
+</html>
