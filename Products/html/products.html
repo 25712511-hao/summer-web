@@ -145,59 +145,6 @@
 
   <footer><p>© 2026 My Shop</p></footer>
 
-  <script>
-    const categoryLinks = document.querySelectorAll('.category-nav a');
-    const productCards = document.querySelectorAll('.product-card');
-
-    categoryLinks.forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        const category = link.dataset.category;
-
-        categoryLinks.forEach(l => l.classList.remove('active'));
-        link.classList.add('active');
-
-        productCards.forEach(card => {
-          if (card.dataset.category === category) {
-            card.style.display = '';
-          } else {
-            card.style.display = 'none';
-          }
-        });
-      });
-    });
-
-    document.querySelectorAll('.add-to-cart').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const card = btn.closest('.product-card');
-        const product = {
-          id: card.dataset.id,
-          name: card.dataset.name,
-          price: parseInt(card.dataset.price),
-          emoji: card.dataset.emoji,
-          qty: 1
-        };
-
-        let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-        const existingItem = cart.find(item => item.id === product.id);
-        if (existingItem) {
-          existingItem.qty += 1;
-        } else {
-          cart.push(product);
-        }
-
-        localStorage.setItem('cart', JSON.stringify(cart));
-
-        const originalText = btn.textContent;
-        btn.textContent = '✓ Đã thêm!';
-        btn.style.background = '#10b981';
-        setTimeout(() => {
-          btn.textContent = originalText;
-          btn.style.background = '';
-        }, 1500);
-      });
-    });
-  </script>
+  <script src="../js/script.js"> </script>
 </body>
 </html>

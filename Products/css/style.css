@@ -1,8 +1,7 @@
-
 :root {
 	--bg-1: #f6f8ff;
-	--accent: #4f46e5; /* indigo */
-	--accent-2: #06b6d4; /* cyan */
+	--accent: #4f46e5; 
+	--accent-2: #06b6d4;
 	--muted: #6b7280;
 	--card-bg: #ffffff;
 	--ring: rgba(79,70,229,0.15);
@@ -107,12 +106,9 @@ footer { background: #0f172a; color: #cbd5e1; padding: 18px; text-align: center;
 
 button { background: linear-gradient(90deg,var(--accent),var(--accent-2)); color: white; border: none; padding: 10px 14px; border-radius: 10px; cursor: pointer; transition: transform 160ms ease, box-shadow 160ms ease; }
 button:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(79,70,229,0.18); }
-/* button:focus { outline: none; box-shadow: 0 0 0 6px var(--ring); } */
 
-/* Card accent and subtle borders */
 .box .badge { display: inline-block; padding: 6px 10px; background: linear-gradient(90deg, rgba(79,70,229,0.12), rgba(6,182,212,0.08)); color: var(--accent); border-radius: 999px; font-weight: 600; }
 
-/* Product card styles */
 .product-card { position: relative; display: flex; flex-direction: column; height: 100%; }
 .product-image { width: 100%; height: 180px; background: linear-gradient(135deg, rgba(79,70,229,0.1), rgba(6,182,212,0.1)); border-radius: 10px; margin-bottom: 12px; display: flex; align-items: center; justify-content: center; font-size: 36px; }
 .product-title { font-size: 16px; font-weight: 600; color: #0f172a; margin-bottom: 6px; }
@@ -123,7 +119,6 @@ button:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(79,70,2
 .stars { color: #fbbf24; }
 .product-badge { position: absolute; top: 12px; right: 12px; background: #ef4444; color: white; padding: 4px 8px; border-radius: 6px; font-size: 11px; font-weight: 600; }
 
-/* Form inputs */
 input, textarea { width: 100%; padding: 10px 12px; border: 1px solid #e5e7eb; border-radius: 8px; font-size: 14px; transition: all 180ms ease; }
 input:focus, textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px var(--ring); }
 label { display: block; margin-bottom: 6px; font-weight: 600; color: #0f172a; font-size: 14px; }
@@ -163,25 +158,21 @@ label { display: block; margin-bottom: 6px; font-weight: 600; color: #0f172a; fo
   font-weight: 600;
 }
 
-/* Price and cart section */
 .price-section { background: linear-gradient(135deg, rgba(79,70,229,0.04), rgba(6,182,212,0.04)); padding: 16px; border-radius: 10px; margin-top: 16px; }
 .price-row { display: flex; justify-content: space-between; margin-bottom: 8px; }
 .price-label { color: var(--muted); font-size: 14px; }
 .price-value { font-weight: 600; color: #0f172a; }
 
-/* Table styles */
 table { border-collapse: collapse; }
 table th { background: rgba(79,70,229,0.08); padding: 12px; text-align: left; font-weight: 600; color: #0f172a; }
 table td { padding: 12px; border-bottom: 1px solid #e5e7eb; }
 table tr:hover { background: rgba(79,70,229,0.02); }
 
-/* Utility spacing */
 .mb-20 { margin-bottom: 20px; }
 .text-center { text-align: center; }
 .text-muted { color: var(--muted); }
 .font-bold { font-weight: 700; }
 
-/* Home page */
 .hero-banner {
   position: relative;
   height: 300px;
@@ -292,7 +283,6 @@ table tr:hover { background: rgba(79,70,229,0.02); }
 	margin-top: 20px;
 }
 
-/* Category navigation bar */
 .category-nav {
 	background: linear-gradient(90deg, #ffffff, #f8fafc);
 	border-bottom: 2px solid #e5e7eb;
@@ -333,7 +323,6 @@ table tr:hover { background: rgba(79,70,229,0.02); }
 	border-bottom-color: #0b6ee8;
 }
 
-/* Login page */
 #loginTitle { color: #0f172a; text-align: center; margin-bottom: 8px; }
 #loginSubtitle { text-align: center; color: var(--muted); margin-bottom: 20px; }
 #loginRememberRow { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; font-size: 13px; }
@@ -349,7 +338,6 @@ table tr:hover { background: rgba(79,70,229,0.02); }
 #registerText { text-align: center; margin-top: 20px; color: var(--muted); font-size: 14px; }
 #registerLink { font-weight: 600; }
 
-/* Detail page */
 #detailMainImage { height: 400px; font-size: 120px; }
 #detailThumbRow { display: flex; gap: 8px; margin-top: 12px; }
 .detail-thumb { height: 60px; width: 60px; cursor: pointer; }
@@ -380,7 +368,6 @@ table tr:hover { background: rgba(79,70,229,0.02); }
 #detailReviewStars { font-size: 14px; }
 #detailReviewText { color: var(--muted); font-size: 13px; margin-top: 4px; }
 
-/* Cart page */
 #cartBoxMain { flex: 2; }
 #cartTitle { color: #0f172a; margin-bottom: 16px; }
 #cartTable { margin-bottom: 20px; }
@@ -408,7 +395,6 @@ table tr:hover { background: rgba(79,70,229,0.02); }
 .qty-value { width: 30px; text-align: center; }
 .delete-btn { padding: 6px 12px; font-size: 12px; background: #ef4444; color: white; border: none; border-radius: 4px; cursor: pointer; }
 
-/* Profile page */
 #profileAvatar { width: 120px; height: 120px; margin: 0 auto 20px; border-radius: 50%; background: linear-gradient(135deg, #4f46e5, #06b6d4); display: flex; align-items: center; justify-content: center; font-size: 48px; color: white; cursor: pointer; }
 #profileName { color: #0f172a; margin-bottom: 6px; }
 #profileMember { color: var(--muted); margin-bottom: 20px; }
@@ -433,7 +419,6 @@ table tr:hover { background: rgba(79,70,229,0.02); }
 #profileDangerActions { margin-top: 24px; padding-top: 20px; border-top: 1px solid #e5e7eb; }
 .danger-btn { width: 100%; background: #fef2f2; color: #991b1b; border: 1px solid #fee2e2; padding: 10px; margin-top: 8px; }
 
-/* Responsive tweaks */
 @media (max-width: 640px) {
 	.header-inner { gap: 10px; padding: 10px 12px; flex-wrap: wrap; }
 	.brand { font-size: 1.3rem; }
