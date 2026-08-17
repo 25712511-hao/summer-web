@@ -1,0 +1,1234 @@
+{
+  "products": [
+    {
+      "id": "sp001",
+      "name": "Samsung Galaxy Z Fold8 Ultra",
+      "category": "dien-thoai",
+      "price": 41990000,
+      "oldPrice": 41990000,
+      "emoji": "📱",
+      "image": "/image/samsung-galaxy-z-fold8-ultra-violet-thumb-600x600.jpg",
+      "badge": "Hot",
+      "shortDesc": "Điện thoại màn hình gập cao cấp, không gian hiển thị cực lớn và đa nhiệm mượt mà.",
+      "description": "Samsung Galaxy Z Fold8 Ultra trang bị công nghệ màn hình gập thế hệ mới với tấm nền Dynamic AMOLED 2X 120Hz siêu sáng, hiệu năng mạnh mẽ từ chip Snapdragon đầu bảng, hệ thống camera chuyên nghiệp và viên pin dung lượng lớn tối ưu cho công việc và giải trí đỉnh cao.",
+      "rating": 5,
+      "reviewCount": 248,
+      "stock": 156,
+      "freeShipping": true,
+      "warranty": "24 tháng",
+      "specs": [
+        "Màn hình chính: 7.6\" Dynamic AMOLED 2X, 120Hz",
+        "Màn hình phụ: 6.3\" Dynamic AMOLED 2X",
+        "Chip: Snapdragon 8 Elite (hoặc dòng chip mới nhất)",
+        "RAM: 12GB / 16GB",
+        "Bộ nhớ: 256GB / 512GB / 1TB",
+        "Camera: Chính 200MP + Tele 10MP + Góc siêu rộng 12MP"
+      ],
+      "review": {
+        "author": "Ấn",
+        "stars": 5,
+        "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+      }
+    },
+    {
+    "id": "sp002",
+      "name": "Samsung Galaxy Z Fold8",
+      "category": "dien-thoai",
+      "price": 12999000,
+      "oldPrice": 15999000,
+      "emoji": "📱",
+      "image": "/image/samsung-galaxy-z-fold8-kem-thumb-600x600.jpg",      
+      "badge": "Hot",
+      "shortDesc": "Thiết kế gập mỏng nhẹ, tối ưu trải nghiệm đa nhiệm.",
+      "description": "Sở hữu thiết kế bản lề cải tiến mỏng gọn hơn, Galaxy Z Fold8 mang lại cảm giác cầm nắm thoải mái, màn hình sắc nét và các tính năng AI thông minh hỗ trợ tối đa hiệu suất làm việc.",
+      "rating": 5,
+      "reviewCount": 248,
+      "stock": 156,
+      "freeShipping": true,
+      "warranty": "24 tháng",
+      "specs": [
+        "Màn hình: 7.6\" Dynamic AMOLED 2X, 120Hz",
+        "Chip: Snapdragon 8 Elite",
+        "RAM: 12GB",
+        "Bộ nhớ: 256GB/512GB",
+        "Camera: Chính 50MP + Tele 10MP + Ultra-wide 12MP"
+      ],
+      "review": {
+        "author": "Ấn",
+        "stars": 5,
+        "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+      }
+    },
+{
+    "id": "sp003",
+      "name": "Samsung Galaxy Z Flip8 5G",
+      "category": "dien-thoai",
+      "price": 12999000,
+      "oldPrice": 15999000,
+      "emoji": "📱",
+      "image": "/image/samsung-galaxy-z-flip8-xam-thumb-600x600.jpg",
+      "badge": "Hot",
+      "shortDesc": "Điện thoại gập thời trang, màn hình phụ lớn tiện dụng.",
+      "description": "Samsung Galaxy Z Flip8 5G là biểu tượng của phong cách với màn hình phụ mở rộng tối đa, thiết kế gập vỏ sò sành điệu, hiệu năng mạnh mẽ và camera chất lượng cao cho trải nghiệm chụp ảnh độc đáo.",
+      "rating": 5,
+      "reviewCount": 248,
+      "stock": 156,
+      "freeShipping": true,
+      "warranty": "24 tháng",
+      "specs": [
+        "Màn hình: 6.7\" Dynamic AMOLED 2X, 120Hz",
+        "Chip: Snapdragon 8 Elite",
+        "RAM: 8GB/12GB",
+        "Bộ nhớ: 256GB/512GB",
+        "Camera: Chính 50MP + Ultra-wide 12MP"
+      ],
+      "review": {
+        "author": "Ấn",
+        "stars": 5,
+        "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+      }
+    },
+{
+    "id": "sp004",
+      "name": "iPhone 17 Pro Max",
+      "category": "dien-thoai",
+      "price": 12999000,
+      "oldPrice": 15999000,
+      "emoji": "📱",
+      "image": "/image/iphone-17-pro-max-cam-thumb-600x600.jpg",
+      "shortDesc": "Màn hình 6.9 inch siêu lớn, chip A19 Pro mạnh mẽ nhất.",
+      "description": "iPhone 17 Pro Max là chiếc iPhone mạnh mẽ nhất với màn hình OLED 6.9 inch, tần số quét 120Hz mượt mà. Máy sử dụng chip A19 Pro đột phá, hệ thống camera 48MP chuyên nghiệp và thời lượng pin ấn tượng lên đến 37 giờ.",
+      "rating": 5,
+      "reviewCount": 248,
+      "stock": 156,
+      "freeShipping": true,
+      "warranty": "24 tháng",
+      "specs": [
+        "Màn hình: 6.9\" OLED Super Retina XDR, 120Hz",
+        "Chip: Apple A19 Pro",
+        "RAM: 12GB",
+        "Bộ nhớ: 256GB/512GB/1TB/2TB",
+        "Camera: Chính 48MP + Tele 48MP + Ultra-wide 48MP"
+      ],
+      "review": {
+        "author": "Ấn",
+        "stars": 5,
+        "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+      }
+    },
+{
+    "id": "sp005",
+      "name": "iPhone 17 Pro",
+      "category": "dien-thoai",
+      "price": 12999000,
+      "oldPrice": 15999000,
+      "emoji": "📱",
+      "image": "/image/iphone-17-pro-cam-thumb-600x600.jpg",
+      "shortDesc": "Hiệu năng chuyên nghiệp trong thiết kế nhỏ gọn 6.3 inch.",
+      "description": "iPhone 17 Pro mang đến trải nghiệm cao cấp với màn hình 6.3 inch, chip A19 Pro bền bỉ cùng hệ thống 3 camera 48MP đỉnh cao. Thiết kế khung nhôm nguyên khối bền bỉ cùng lớp phủ Ceramic Shield 2 bảo vệ tối ưu.",
+      "rating": 5,
+      "reviewCount": 248,
+      "stock": 156,
+      "freeShipping": true,
+      "warranty": "24 tháng",
+      "specs": [
+        "Màn hình: 6.3\" OLED Super Retina XDR, 120Hz",
+        "Chip: Apple A19 Pro",
+        "RAM: 12GB",
+        "Bộ nhớ: 256GB/512GB/1TB",
+        "Camera: Chính 48MP + Tele 48MP + Ultra-wide 48MP"
+      ],
+      "review": {
+        "author": "Ấn",
+        "stars": 5,
+        "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+      }
+    },
+{
+    "id": "sp006",
+      "name": "iPhone 17",
+      "category": "dien-thoai",
+      "price": 12999000,
+      "oldPrice": 15999000,
+      "emoji": "📱",
+      "image": "/image/iphone-17-512gb-tim-thumb-600x600.jpg",
+      "shortDesc": "Điện thoại tiêu chuẩn với màn hình ProMotion 120Hz.",
+      "description": "iPhone 17 là sự kết hợp hoàn hảo giữa công nghệ và thời trang với màn hình 6.3 inch 120Hz, chip A19 mạnh mẽ và hệ thống camera kép 48MP cải tiến, hỗ trợ tốt mọi tác vụ hàng ngày.",
+      "rating": 5,
+      "reviewCount": 248,
+      "stock": 156,
+      "freeShipping": true,
+      "warranty": "24 tháng",
+      "specs": [
+        "Màn hình: 6.3\" OLED Super Retina XDR, 120Hz",
+        "Chip: Apple A19",
+        "RAM: 8GB",
+        "Bộ nhớ: 256GB/512GB",
+        "Camera: Chính 48MP + Ultra-wide 48MP"
+      ],
+      "review": {
+        "author": "Ấn",
+        "stars": 5,
+        "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+      }
+    },
+{
+    "id": "sp007",
+    "name": "Xiaomi 17 5G",
+    "category": "dien-thoai",
+    "price": 18990000,
+    "oldPrice": 21990000,
+    "emoji": "📱",
+    "image": "/image/xiaomi-17-xanh-la-thumb-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Hiệu năng đỉnh cao với Snapdragon đầu bảng và camera Leica.",
+    "description": "Xiaomi 17 5G sở hữu màn hình AMOLED 120Hz sắc nét, chip Snapdragon dòng mới nhất mang lại hiệu năng mạnh mẽ, kết hợp cùng hệ thống camera hợp tác với Leica mang đến trải nghiệm nhiếp ảnh chuyên nghiệp.",
+    "rating": 5,
+    "reviewCount": 248,
+    "stock": 156,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Màn hình: 6.36\" AMOLED, 120Hz",
+      "Chip: Snapdragon 8 series",
+      "RAM: 12GB",
+      "Bộ nhớ: 256GB/512GB",
+      "Camera: Chính 50MP + Tele 50MP + Ultra-wide 50MP"
+    ],
+    "review": {
+      "author": "Ấn",
+      "stars": 5,
+      "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+    }
+  },
+  {
+    "id": "sp008",
+    "name": "Xiaomi 17 Pro",
+    "category": "dien-thoai",
+    "price": 21990000,
+    "oldPrice": 24990000,
+    "emoji": "📱",
+    "image": "/image/xiaomi-17-pro-tim.jpg.webp",
+    "badge": "Hot",
+    "shortDesc": "Smartphone cao cấp với cụm camera Leica và pin dung lượng lớn.",
+    "description": "Xiaomi 17 Pro nâng tầm trải nghiệm với màn hình tràn viền cao cấp, hiệu năng siêu khủng từ vi xử lý hàng đầu và hệ thống camera Leica thế hệ mới hỗ trợ quay chụp sắc nét trong mọi điều kiện ánh sáng.",
+    "rating": 5,
+    "reviewCount": 248,
+    "stock": 156,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Màn hình: 6.7\" AMOLED, 120Hz",
+      "Chip: Snapdragon 8 series",
+      "RAM: 12GB/16GB",
+      "Bộ nhớ: 256GB/512GB/1TB",
+      "Camera: Chính 50MP + Tele tiềm vọng + Ultra-wide 50MP"
+    ],
+    "review": {
+      "author": "Ấn",
+      "stars": 5,
+      "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+    }
+  },
+  {
+    "id": "sp009",
+    "name": "Xiaomi 17 Pro Max",
+    "category": "dien-thoai",
+    "price": 25990000,
+    "oldPrice": 28990000,
+    "emoji": "📱",
+    "image": "/image/xiaomi-17-pro-max-xanh-la.jpg.webp",
+    "badge": "Hot",
+    "shortDesc": "Siêu phẩm công nghệ đỉnh cao với màn hình lớn và camera chuyên nghiệp.",
+    "description": "Xiaomi 17 Pro Max là mẫu điện thoại cao cấp nhất hội tụ mọi công nghệ tối tân: màn hình AMOLED lớn siêu mượt, chip xử lý mạnh mẽ nhất, sạc siêu nhanh và hệ thống camera đỉnh cao tinh chỉnh bởi Leica.",
+    "rating": 5,
+    "reviewCount": 248,
+    "stock": 156,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Màn hình: 6.8\" AMOLED, 120Hz",
+      "Chip: Snapdragon 8 series",
+      "RAM: 16GB",
+      "Bộ nhớ: 512GB/1TB",
+      "Camera: Chính 50MP + Tele tiềm vọng + Ultra-wide 50MP"
+    ],
+    "review": {
+      "author": "Ấn",
+      "stars": 5,
+      "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+    }
+  },
+  {
+    "id": "sp010",
+    "name": "Xiaomi 17 Ultra",
+    "category": "dien-thoai",
+    "price": 28990000,
+    "oldPrice": 31990000,
+    "emoji": "📱",
+    "image": "/image/xiaomi-17-ultra-den-thumb-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Siêu phẩm nhiếp ảnh di động đỉnh cao với hệ thống camera Leica.",
+    "description": "Xiaomi 17 Ultra là đỉnh cao công nghệ smartphone với màn hình AMOLED cong tràn viền sắc nét, chip Snapdragon dòng mới nhất mạnh mẽ, bộ nhớ khủng và hệ thống camera Leica chuyên nghiệp mang lại khả năng chụp ảnh vượt trội.",
+    "rating": 5,
+    "reviewCount": 248,
+    "stock": 156,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Màn hình: 6.8\" AMOLED, 120Hz",
+      "Chip: Snapdragon 8 series",
+      "RAM: 16GB",
+      "Bộ nhớ: 512GB/1TB",
+      "Camera: Chính 50MP + Tele tiềm vọng chuyên nghiệp + Ultra-wide 50MP"
+    ],
+    "review": {
+      "author": "Ấn",
+      "stars": 5,
+      "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+    }
+  },
+  {
+    "id": "sp011",
+    "name": "Apple Watch Ultra 3 GPS + Cellular 49mm viền Titanium dây Ocean",
+    "category": "smartwatch",
+    "price": 21990000,
+    "oldPrice": 24990000,
+    "emoji": "⌚",
+    "image": "/image/apple-watch-ultra-3-gps-cellular-49mm-vien-titanium-day-ocean-tu-nhien-600x600.jpg",
+    "badge": "Sale",
+    "shortDesc": "Đồng hồ thông minh thể thao chuyên nghiệp với khung Titanium bền bỉ.",
+    "description": "Apple Watch Ultra 3 thiết kế dành riêng cho vận động viên và nhà thám hiểm. Sở hữu vỏ Titanium siêu bền, màn hình Retina sáng rực rỡ, GPS tần số kép chính xác cao cùng thời lượng pin ấn tượng phục vụ mọi hành trình khắc nghiệt.",
+    "rating": 5,
+    "reviewCount": 156,
+    "stock": 98,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Màn hình: 49mm Retina OLED luôn bật, độ sáng tối đa cực cao",
+      "Pin: Lên đến 36-72 giờ sử dụng",
+      "Chống nước: 100m (WR100)",
+      "Cảm biến: Điện tâm đồ, SpO2, nhiệt độ, GPS kép",
+      "Kết nối: LTE Cellular, Wi-Fi, Bluetooth"
+    ],
+    "review": {
+      "author": "Minh",
+      "stars": 5,
+      "text": "Thiết kế cực kỳ sang trọng và chắc chắn, pin trâu, nhiều tính năng theo dõi sức khỏe chuyên sâu."
+    }
+  },
+  {
+    "id": "sp012",
+    "name": "Xiaomi Watch S5 46mm dây cao su Fluoro",
+    "category": "smartwatch",
+    "price": 3990000,
+    "oldPrice": 4990000,
+    "emoji": "⌚",
+    "image": "/image/xiaomi-watch-s5-46mm-day-cao-su-fluoro-đen-thumb-600x600.jpg",
+    "badge": "Sale",
+    "shortDesc": "Đồng hồ thông minh thanh lịch, theo dõi sức khỏe toàn diện.",
+    "description": "Xiaomi Watch S5 46mm sở hữu thiết kế thời trang hiện đại với màn hình AMOLED sắc nét, dây cao su Fluoro êm ái chống mồ hôi. Hỗ trợ đa dạng chế độ luyện tập thể thao, định vị GPS độc lập và thời lượng pin bền bỉ.",
+    "rating": 4,
+    "reviewCount": 156,
+    "stock": 98,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Màn hình: 1.43\" AMOLED luôn bật",
+      "Pin: Lên đến 14 ngày sử dụng thông thường",
+      "Chống nước: 5ATM",
+      "Cảm biến: Nhịp tim, SpO2, Giấc ngủ, GPS",
+      "Kết nối: Bluetooth"
+    ],
+    "review": {
+      "author": "Minh",
+      "stars": 4,
+      "text": "Pin trâu, đo sức khỏe khá chính xác, giá hợp lý."
+    }
+  },
+  {
+    "id": "sp013",
+    "name": "Xiaomi Mi Band 10 Pro viền gốm dây cao su Fluoro",
+    "category": "smartwatch",
+    "price": 2490000,
+    "oldPrice": 2990000,
+    "emoji": "⌚",
+    "image": "/image/vong-deo-tay-thong-minh-mi-band-10-pro-vien-gom-thumb-600x600.jpg",
+    "badge": "Sale",
+    "shortDesc": "Vòng đeo tay thông minh cao cấp viền gốm sang trọng, GPS tích hợp.",
+    "description": "Xiaomi Mi Band 10 Pro mang đến thiết kế đột phá với viền gốm cao cấp kết hợp dây cao su Fluoro êm ái. Tích hợp màn hình AMOLED lớn sắc nét, GPS độc lập, các tính năng theo dõi sức khỏe chuyên sâu và thời lượng pin ấn tượng.",
+    "rating": 5,
+    "reviewCount": 156,
+    "stock": 98,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Màn hình: 1.74\" AMOLED luôn bật",
+      "Pin: Lên đến 14 ngày sử dụng",
+      "Chống nước: 5ATM",
+      "Cảm biến: Nhịp tim, SpO2, Giấc ngủ, GPS kép",
+      "Kết nối: Bluetooth 5.4"
+    ],
+    "review": {
+      "author": "Minh",
+      "stars": 5,
+      "text": "Thiết kế viền gốm quá sang so với tầm giá, pin trâu, GPS bắt nhanh."
+    }
+  },
+  {
+    "id": "sp014",
+    "name": "Samsung Galaxy Watch Ultra 2 LTE 47mm dây silicone",
+    "category": "smartwatch",
+    "price": 14990000,
+    "oldPrice": 17990000,
+    "emoji": "⌚",
+    "image": "/image/samsung-galaxy-watch-ultra-2-xanh-thumb-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Đồng hồ thông minh thể thao siêu bền, hỗ trợ LTE độc lập.",
+    "description": "Samsung Galaxy Watch Ultra 2 thiết kế đẳng cấp chịu được điều kiện khắc nghiệt. Tích hợp kết nối LTE độc lập, định vị GPS tần số kép cực kỳ chính xác, theo dõi thể chất toàn diện và năng lượng bền bỉ cho vận động viên.",
+    "rating": 5,
+    "reviewCount": 156,
+    "stock": 98,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Màn hình: 1.5\" Super AMOLED luôn bật, độ sáng 3000 nits",
+      "Pin: Lên đến 80-100 giờ ở chế độ tiết kiệm năng lượng",
+      "Chống nước: 10ATM + Chuẩn quân đội MIL-STD-810H",
+      "Cảm biến: BioActive, ECG, SpO2, Nhiệt độ da, GPS kép",
+      "Kết nối: LTE, Wi-Fi, Bluetooth, NFC"
+    ],
+    "review": {
+      "author": "Minh",
+      "stars": 5,
+      "text": "Đồng hồ thể thao đỉnh cao của Android, màn hình sáng rõ ngoài trời nắng."
+    }
+  },
+  {
+    "id": "sp015",
+    "name": "Huawei Watch GT Runner 2 43.5mm dây Nylon",
+    "category": "smartwatch",
+    "price": 5990000,
+    "oldPrice": 7490000,
+    "emoji": "⌚",
+    "image": "/image/huawei-watch-gt-runner-2-43-5mm-day-fluor-cam-thumb-1-600x600.jpg",
+    "badge": "Sale",
+    "shortDesc": "Đồng hồ chuyên chạy bộ siêu nhẹ, định vị GPS cực chuẩn.",
+    "description": "Huawei Watch GT Runner 2 được thiết kế chuyên biệt cho người yêu thích chạy bộ với trọng lượng siêu nhẹ, dây nylon thoáng khí. Trang bị hệ thống ăng-ten GPS băng tần kép chính xác cùng các giáo án luyện tập khoa học.",
+    "rating": 5,
+    "reviewCount": 156,
+    "stock": 98,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Màn hình: 1.43\" AMOLED luôn bật",
+      "Pin: Lên đến 14 ngày sử dụng thông thường",
+      "Chống nước: 5ATM",
+      "Cảm biến: Nhịp tim TruSeen, SpO2, GPS băng tần kép",
+      "Kết nối: Bluetooth, Nghe gọi qua Bluetooth"
+    ],
+    "review": {
+      "author": "Minh",
+      "stars": 5,
+      "text": "Đeo rất nhẹ tay khi chạy bộ, định vị GPS chuẩn xác không lệch chút nào."
+    }
+  },
+  {
+    "id": "sp016",
+    "name": "AirPods Pro 3",
+    "category": "phu-kien",
+    "price": 6490000,
+    "oldPrice": 6990000,
+    "emoji": "🎧",
+    "image": "/image/tai-nghe-bluetooth-apple-airpods-pro-3-trang-mfhp4-thumb-639177367044323389-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Tai nghe không dây cao cấp với ANC nâng cấp và chip H2/H3.",
+    "description": "AirPods Pro 3 mang đến trải nghiệm âm thanh đỉnh cao với khả năng khử tiếng ồn chủ động vượt trội, âm thanh không gian cá nhân hóa sống động cùng thiết kế công thái học ôm sát tai, thoải mái suốt cả ngày dài.",
+    "rating": 5,
+    "reviewCount": 412,
+    "stock": 320,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Chip: Apple H2 / H3 thế hệ mới",
+      "Khử tiếng ồn chủ động (ANC) thế hệ tiếp theo",
+      "Âm thanh không gian cá nhân hóa với theo dõi chuyển động đầu",
+      "Pin: Lên đến 7 giờ (tai nghe) + hơn 30 giờ (hộp sạc MagSafe)",
+      "Chống nước, chống mồ hôi chuẩn IP54"
+    ],
+    "review": {
+      "author": "Ngọc",
+      "stars": 5,
+      "text": "Chống ồn cực tốt, đeo êm tai, đáng tiền."
+    }
+  },
+  {
+    "id": "sp017",
+    "name": "MacBook Pro 14\"",
+    "category": "laptop",
+    "price": 42990000,
+    "oldPrice": 46990000,
+    "emoji": "💻",
+    "image": "/image/macbook-pro-14-inch-m5-16gb-1tb-den-600x600.jpg",
+    "badge": "New",
+    "shortDesc": "Laptop chuyên nghiệp mạnh mẽ với chip Apple M-series mới nhất.",
+    "description": "MacBook Pro 14 inch kết hợp hoàn hảo giữa hiệu năng khủng và tính di động. Được trang bị chip xử lý thế hệ mới mạnh mẽ, màn hình Liquid Retina XDR rực rỡ và thời lượng pin đột phá lên đến 22 giờ.",
+    "rating": 5,
+    "reviewCount": 89,
+    "stock": 34,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Chip: Apple M-series Pro",
+      "RAM: 18GB / 24GB",
+      "Ổ cứng: 512GB / 1TB SSD",
+      "Màn hình: 14.2\" Liquid Retina XDR (120Hz ProMotion)",
+      "Pin: Lên đến 22 giờ"
+    ],
+    "review": {
+      "author": "Huy",
+      "stars": 5,
+      "text": "Máy mạnh, mát, màn hình đẹp xuất sắc."
+    }
+  },
+  {
+    "id": "sp018",
+    "name": "MacBook Air 15\"",
+    "category": "laptop",
+    "price": 36990000,
+    "oldPrice": 39990000,
+    "emoji": "💻",
+    "image": "/image/macbook-air-15-inch-m5-24gb-1tb-vang-1-600x600.jpg",
+    "badge": "New",
+    "shortDesc": "Laptop mỏng nhẹ màn hình lớn 15 inch với hiệu năng ấn tượng.",
+    "description": "MacBook Air 15 inch mang đến không gian hiển thị rộng rãi trong một thân máy siêu mỏng nhẹ. Sở hữu hiệu năng mạnh mẽ từ chip Apple Silicon, thiết kế không quạt tản nhiệt yên lặng tuyệt đối và pin bền bỉ.",
+    "rating": 5,
+    "reviewCount": 89,
+    "stock": 34,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Chip: Apple M-series",
+      "RAM: 16GB / 24GB",
+      "Ổ cứng: 512GB / 1TB SSD",
+      "Màn hình: 15.3\" Liquid Retina",
+      "Pin: Lên đến 18 giờ"
+    ],
+    "review": {
+      "author": "Huy",
+      "stars": 5,
+      "text": "Máy mỏng nhẹ, màn hình lớn cực kỳ thích hợp làm việc văn phòng và đồ họa nhẹ."
+    }
+  },
+  {
+    "id": "sp019",
+    "name": "Asus Gaming ROG Strix G16 G614PH-R9-8940HX-S5101W",
+    "category": "laptop",
+    "price": 45990000,
+    "oldPrice": 49990000,
+    "emoji": "💻",
+    "image": "/image/asus-gaming-rog-strix-g16-g614ph-r9-8940hx-s5101w-thumb-639106402520700127-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Laptop gaming hiệu năng cực khủng với chip AMD Ryzen 9 và card đồ họa rời.",
+    "description": "Asus Gaming ROG Strix G16 sở hữu sức mạnh vượt trội từ vi xử lý AMD Ryzen 9 8940HX kết hợp card đồ họa hiệu suất cao, màn hình tần số quét siêu tốc cho trải nghiệm chơi game mượt mà và hệ thống tản nhiệt tiên tiến.",
+    "rating": 5,
+    "reviewCount": 89,
+    "stock": 34,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Chip: AMD Ryzen 9 8940HX",
+      "RAM: 32GB DDR5",
+      "Ổ cứng: 1TB SSD NVMe",
+      "Màn hình: 16\" IPS QHD+, 240Hz",
+      "Card đồ họa: NVIDIA GeForce RTX Series"
+    ],
+    "review": {
+      "author": "Huy",
+      "stars": 5,
+      "text": "Máy mạnh, tản nhiệt tốt, chiến game nặng cực mượt."
+    }
+  },
+  {
+    "id": "sp020",
+    "name": "Laptop Acer Gaming Predator Helios 18 AI PH18 73 98AQ - NH.QVWSV.001 (Ultra 9 275HX, 192GB, 6TB, RTX 5090 24GB, 4K 120Hz)",
+    "category": "laptop",
+    "price": 119990000,
+    "oldPrice": 129990000,
+    "emoji": "💻",
+    "image": "/image/acer-predator-helios-18-ai-ph18-73-98aq-ultra-9-nhqvwsv001-thumb-638828182518741548-600x600.jpg",
+    "badge": "New",
+    "shortDesc": "Siêu phẩm laptop gaming cấu hình mạnh mẽ nhất với RTX 5090 và màn hình 4K.",
+    "description": "Acer Predator Helios 18 AI là cỗ máy chiến game và làm việc đồ họa đỉnh cao vô song. Tích hợp chip Intel Core Ultra 9 275HX, card đồ họa RTX 5090 24GB khủng khiếp, dung lượng RAM và lưu trữ khổng lồ cùng màn hình 4K 120Hz sắc nét.",
+    "rating": 5,
+    "reviewCount": 89,
+    "stock": 34,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Chip: Intel Core Ultra 9 275HX",
+      "RAM: 192GB",
+      "Ổ cứng: 6TB SSD",
+      "Màn hình: 18\" 4K, 120Hz",
+      "Card đồ họa: NVIDIA GeForce RTX 5090 24GB"
+    ],
+    "review": {
+      "author": "Huy",
+      "stars": 5,
+      "text": "Cấu hình vô địch thủ, không gì có thể làm khó được chiếc máy này."
+    }
+  },
+  {
+    "id": "sp021",
+    "name": "Laptop Lenovo Gaming Legion 5 15IPH11 - 83RW0023VN (Ultra 7 356H, 16GB, 512GB, RTX 5060 8GB, WQXGA OLED 165Hz)",
+    "category": "laptop",
+    "price": 37990000,
+    "oldPrice": 41990000,
+    "emoji": "💻",
+    "image": "/image/lenovo-gaming-legion-5-15iph11-ultra-7-356h-83rw0023vn-thumb-639144585213475734-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Laptop gaming cân bằng hoàn hảo với màn hình OLED WQXGA 165Hz sắc nét.",
+    "description": "Lenovo Gaming Legion 5 trang bị chip Intel Core Ultra 7 mạnh mẽ kết hợp card RTX 5060, mang lại hiệu năng chơi game và đồ họa tuyệt vời. Màn hình OLED chuẩn màu cao cấp cùng tần số quét 165Hz giúp tối ưu mọi trải nghiệm thị giác.",
+    "rating": 5,
+    "reviewCount": 89,
+    "stock": 34,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Chip: Intel Core Ultra 7 356H",
+      "RAM: 16GB DDR5",
+      "Ổ cứng: 512GB SSD",
+      "Màn hình: 15\" WQXGA OLED, 165Hz",
+      "Card đồ họa: NVIDIA GeForce RTX 5060 8GB"
+    ],
+    "review": {
+      "author": "Huy",
+      "stars": 5,
+      "text": "Màn hình OLED cực đẹp, bàn phím gõ êm, máy chạy mát và ổn định."
+    }
+  },
+  {
+    "id": "sp022",
+    "name": "Màn hình Gaming Samsung Odyssey G5 G50F LS27FG502EEXXV (27 inch QHD, IPS, 180Hz, 1ms)",
+    "category": "man-hinh",
+    "price": 6990000,
+    "oldPrice": 8490000,
+    "emoji": "🖥️",
+    "image": "/image/samsung-gaming-odyssey-g5-g50f-27-inch-qhd-ls27fg502eexxv-thumb-639051105001717059-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Màn hình gaming 27 inch QHD với tần số quét 180Hz siêu mượt.",
+    "description": "Màn hình Gaming Samsung Odyssey G5 mang lại trải nghiệm chiến game đỉnh cao với độ phân giải QHD sắc nét, tấm nền IPS góc nhìn rộng cùng tần số quét 180Hz và thời gian phản hồi 1ms, loại bỏ hiện tượng xé hình.",
+    "rating": 5,
+    "reviewCount": 78,
+    "stock": 45,
+    "freeShipping": true,
+    "warranty": "36 tháng",
+    "specs": [
+      "Độ phân giải: 2560×1440 (QHD)",
+      "Tần số quét: 180Hz",
+      "Thời gian phản hồi: 1ms (GtG)",
+      "Cổng kết nối: HDMI, DisplayPort",
+      "Tấm nền: IPS"
+    ],
+    "review": {
+      "author": "Long",
+      "stars": 5,
+      "text": "Màn siêu đẹp, màu chuẩn, tần số quét cao chiến game cực mượt."
+    }
+  },
+  {
+    "id": "sp023",
+    "name": "Asus ProArt 32 inch 8K PA32KCX",
+    "category": "man-hinh",
+    "price": 79990000,
+    "oldPrice": 85990000,
+    "emoji": "🖥️",
+    "image": "/image/asus-proart-32-inch-8k-pa32kcx-thumb-639112529978841601-600x600.jpg",
+    "badge": "New",
+    "shortDesc": "Màn hình chuyên nghiệp độ phân giải 8K cực kỳ sắc nét cho đồ họa.",
+    "description": "Asus ProArt PA32KCX là siêu phẩm màn hình chuyên nghiệp dành cho nhà sáng tạo nội dung với độ phân giải 8K đỉnh cao, độ chính xác màu tuyệt đối, hỗ trợ dải màu rộng và các cổng kết nối tốc độ cao cấp nhất.",
+    "rating": 5,
+    "reviewCount": 78,
+    "stock": 45,
+    "freeShipping": true,
+    "warranty": "36 tháng",
+    "specs": [
+      "Độ phân giải: 7680×4320 (8K)",
+      "Tần số quét: 60Hz / tiêu chuẩn chuyên nghiệp",
+      "Độ chuẩn màu: Delta E < 1, hỗ trợ HDR",
+      "Cổng kết nối: Thunderbolt 4, DisplayPort, HDMI",
+      "Tấm nền: Mini-LED / IPS cao cấp"
+    ],
+    "review": {
+      "author": "Long",
+      "stars": 5,
+      "text": "Màn siêu đẹp, màu chuẩn tuyệt đối, đỉnh cao cho dựng phim và đồ họa."
+    }
+  },
+  {
+    "id": "sp024",
+    "name": "Màn hình Gaming Asus ROG Swift PG27AQWP-W (26.5 inch, QHD, WOLED, 540Hz, 0.02ms)",
+    "category": "man-hinh",
+    "price": 29990000,
+    "oldPrice": 33990000,
+    "emoji": "🖥️",
+    "image": "/image/asus-gaming-rog-swift-26-5-inch-qhd-pg27aqwp-w-thumb-639112566842179849-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Màn hình OLED eSports đỉnh cao với tần số quét siêu tốc 540Hz.",
+    "description": "Asus ROG Swift PG27AQWP-W định nghĩa lại giới hạn gaming với tấm nền WOLED 26.5 inch QHD kết hợp tần số quét 540Hz không tưởng và thời gian phản hồi 0.02ms, mang lại lợi thế tuyệt đối trong các tựa game thi đấu chuyên nghiệp.",
+    "rating": 5,
+    "reviewCount": 78,
+    "stock": 45,
+    "freeShipping": true,
+    "warranty": "36 tháng",
+    "specs": [
+      "Độ phân giải: 2560×1440 (QHD)",
+      "Tần số quét: 540Hz",
+      "Thời gian phản hồi: 0.02ms (GtG)",
+      "Cổng kết nối: DisplayPort 2.1, HDMI 2.1, USB Hub",
+      "Tấm nền: WOLED"
+    ],
+    "review": {
+      "author": "Long",
+      "stars": 5,
+      "text": "Tần số quét 540Hz quá khủng, OLED hiển thị màu đen tuyệt sâu, chơi game sướng ngây ngất."
+    }
+  },
+  {
+    "id": "sp025",
+    "name": "Xiaomi 27 inch 4K A27Ui",
+    "category": "man-hinh",
+    "price": 6490000,
+    "oldPrice": 7990000,
+    "emoji": "🖥️",
+    "image": "/image/xiaomi-a27ui-27-inch-4k-ips-60hz-6ms-den-thumb-638828331342200306-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Màn hình 27 inch độ phân giải 4K sắc nét dành cho văn phòng và đồ họa.",
+    "description": "Xiaomi 27 inch 4K A27Ui mang lại chất lượng hiển thị cực kỳ sắc nét với độ phân giải 4K Ultra HD trên tấm nền IPS cao cấp. Thiết kế viền mỏng hiện đại, màu sắc chuẩn xác, hỗ trợ kết nối linh hoạt đáp ứng tuyệt hảo nhu cầu làm việc sáng tạo.",
+    "rating": 5,
+    "reviewCount": 78,
+    "stock": 45,
+    "freeShipping": true,
+    "warranty": "36 tháng",
+    "specs": [
+      "Độ phân giải: 3840×2160 (4K UHD)",
+      "Tần số quét: 60Hz",
+      "Thời gian phản hồi: 6ms (GtG)",
+      "Cổng kết nối: HDMI, DisplayPort, USB Hub",
+      "Tấm nền: IPS"
+    ],
+    "review": {
+      "author": "Long",
+      "stars": 5,
+      "text": "Màn siêu đẹp, màu chuẩn, văn phòng và làm đồ họa thì quá tuyệt vời."
+    }
+  },
+  {
+    "id": "sp026",
+    "name": "OPPO Find X9 Pro 5G",
+    "category": "may-cu",
+    "price": 14990000,
+    "oldPrice": 18990000,
+    "emoji": "📱",
+    "image": "/image/oppo-find-x9-pro-16gb-512gb-do-thumb-200x200.webp",
+    "badge": "Like New",
+    "shortDesc": "Điện thoại cao cấp đã qua sử dụng, ngoại hình đẹp như mới 99%.",
+    "description": "OPPO Find X9 Pro 5G máy cũ chính hãng đã qua kiểm tra kỹ lưỡng 60 điểm chất lượng. Ngoại hình đẹp không vết xước, dung lượng pin trên 85%, đi kèm chính sách bảo hành 6 tháng 1 đổi 1 cực kỳ yên tâm.",
+    "rating": 4,
+    "reviewCount": 98,
+    "stock": 12,
+    "freeShipping": true,
+    "warranty": "6 tháng",
+    "specs": [
+      "Tình trạng máy: 99% Like New",
+      "Pin: Trên 85%",
+      "Bộ nhớ: 16GB RAM / 512GB ROM",
+      "Kiểm tra: Đạt chuẩn 60 điểm",
+      "Bảo hành: 6 tháng 1 đổi 1"
+    ],
+    "review": {
+      "author": "Sơn",
+      "stars": 4,
+      "text": "Máy đẹp như mới, pin còn tốt, camera chụp siêu nét, giá hời."
+    }
+  },
+  {
+    "id": "sp027",
+    "name": "Laptop Asus Vivobook Go E1504FA - BQ1160W",
+    "category": "may-cu",
+    "price": 6990000,
+    "oldPrice": 8990000,
+    "emoji": "💻",
+    "image": "/image/asus-vivobook-go-e1504fa-r5-7520u-bq1160w-thumb-638966564562227379-200x200.jpg",
+    "badge": "Like New",
+    "shortDesc": "Laptop học tập văn phòng mỏng nhẹ đã qua sử dụng, chất lượng như mới.",
+    "description": "Asus Vivobook Go cũ chính hãng, ngoại hình đẹp 99% không cấn móp. Trang bị vi xử lý tiết kiệm điện năng, màn hình lớn sắc nét, đáp ứng mượt mà các tác vụ học tập, làm việc văn phòng và giải trí cơ bản với mức giá tiết kiệm.",
+    "rating": 4,
+    "reviewCount": 98,
+    "stock": 12,
+    "freeShipping": true,
+    "warranty": "6 tháng",
+    "specs": [
+      "Tình trạng máy: 99% Like New",
+      "Pin: Trên 85%",
+      "Cấu hình: AMD Ryzen 5 / 16GB / 512GB SSD",
+      "Kiểm tra: Đạt chuẩn 60 điểm",
+      "Bảo hành: 6 tháng 1 đổi 1"
+    ],
+    "review": {
+      "author": "Sơn",
+      "stars": 4,
+      "text": "Máy mỏng nhẹ, chạy mượt mà cho công việc văn phòng, rất đáng tiền."
+    }
+  },
+  {
+    "id": "sp028",
+    "name": "Đồng hồ Eco-Drive Nữ dây kim loại CITIZEN EM0639-81A Trắng",
+    "category": "phu-kien",
+    "price": 3890000,
+    "oldPrice": 4890000,
+    "emoji": "⌚",
+    "image": "/image/dong-ho-eco-drive-nu-day-kim-loai-citizen-em0639-8-thumb-200x200.webp",
+    "badge": "Hot",
+    "shortDesc": "Đồng hồ nữ chính hãng công nghệ Eco-Drive chuyển hóa ánh sáng thành năng lượng.",
+    "description": "Đồng hồ Citizen Eco-Drive nữ dây kim loại sang trọng, sử dụng công nghệ hấp thụ ánh sáng bất kỳ để hoạt động mà không cần thay pin định kỳ. Thiết kế thanh lịch, tôn lên nét đẹp quý phái cho phái nữ.",
+    "rating": 5,
+    "reviewCount": 45,
+    "stock": 25,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Bộ máy: Eco-Drive (Hấp thụ ánh sáng)",
+      "Đường kính mặt: ~32mm",
+      "Chất liệu dây: Thép không gỉ",
+      "Chống nước: 5ATM",
+      "Mặt kính: Kính Sapphire / Cường lực cao cấp"
+    ],
+    "review": {
+      "author": "Trang",
+      "stars": 5,
+      "text": "Đồng hồ đẹp lấp lánh, đeo lên tay sang trọng, rất thích công nghệ Eco-Drive."
+    }
+  },
+  {
+    "id": "sp029",
+    "name": "Camera IP 360 Độ 2MP TIANDY TC-H322N Trắng",
+    "category": "phu-kien",
+    "price": 890000,
+    "oldPrice": 1290000,
+    "emoji": "📷",
+    "image": "/image/camera-ip-360-do-2mp-tiandy-tc-h322n-thumb-2-638990554624255597-200x200.jpg",
+    "badge": "Sale",
+    "shortDesc": "Camera an ninh gia đình xoay 360 độ, độ phân giải 2MP sắc nét.",
+    "description": "Camera IP Tiandy xoay 360 độ góc nhìn rộng, ghi hình sắc nét chuẩn 2MP, hỗ trợ đàm thoại 2 chiều, phát hiện chuyển động thông minh và hồng ngoại ban đêm giúp bảo vệ ngôi nhà toàn diện 24/7.",
+    "rating": 5,
+    "reviewCount": 112,
+    "stock": 60,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Độ phân giải: 2MP (1080p)",
+      "Góc quay: Xoay ngang 360 độ, dọc linh hoạt",
+      "Tính năng: Đàm thoại 2 chiều, phát hiện chuyển động",
+      "Hồng ngoại ban đêm: Rõ nét",
+      "Lưu trữ: Thẻ nhớ MicroSD / Cloud"
+    ],
+    "review": {
+      "author": "Nam",
+      "stars": 5,
+      "text": "Camera kết nối dễ dàng, hình ảnh nét, xoay mượt mà, đáng tiền."
+    }
+  },
+  {
+    "id": "sp030",
+    "name": "iPad A16 WiFi",
+    "category": "tablet",
+    "price": 10990000,
+    "oldPrice": 12490000,
+    "emoji": "📱",
+    "image": "/image/ipad-11-wifi-yellow-thumb-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Máy tính bảng phổ thông mạnh mẽ với hiệu năng ổn định và màn hình lớn.",
+    "description": "iPad trang bị vi xử lý tối ưu mang lại trải nghiệm mượt mà cho mọi tác vụ từ học tập, xem phim đến giải trí hàng ngày. Màn hình Retina sắc nét cùng thiết kế hiện đại, hỗ trợ phụ kiện tiện lợi.",
+    "rating": 5,
+    "reviewCount": 134,
+    "stock": 88,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Chip: Apple A-series",
+      "Màn hình: Retina sắc nét",
+      "Bộ nhớ: 64GB / 256GB",
+      "Camera: Trước và sau góc rộng",
+      "Pin: Lên đến 10 giờ sử dụng"
+    ],
+    "review": {
+      "author": "Linh",
+      "stars": 5,
+      "text": "Máy mỏng nhẹ, dùng mượt mà, xem phim hay học tập đều tuyệt vời."
+    }
+  },
+  {
+    "id": "sp031",
+    "name": "iPad Air M4 11 inch WiFi 128GB",
+    "category": "tablet",
+    "price": 16990000,
+    "oldPrice": 18990000,
+    "emoji": "📱",
+    "image": "/image/ipad-air-m4-11-inch-wifi-128gb-xam-thumb-600x600.jpg",
+    "badge": "New",
+    "shortDesc": "Máy tính bảng cao cấp mỏng nhẹ với sức mạnh vượt trội từ chip Apple M-series.",
+    "description": "iPad Air tích hợp chip Apple M-series mạnh mẽ tương đương máy tính xách tay, màn hình Liquid Retina 11 inch rực rỡ, hỗ trợ Apple Pencil Pro giúp thỏa sức sáng tạo, thiết kế đồ họa và làm việc chuyên nghiệp.",
+    "rating": 5,
+    "reviewCount": 134,
+    "stock": 88,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Chip: Apple M-series",
+      "Màn hình: 11\" Liquid Retina",
+      "Bộ nhớ: 128GB SSD",
+      "Hỗ trợ: Apple Pencil Pro & Magic Keyboard",
+      "Pin: Lên đến 10 giờ sử dụng"
+    ],
+    "review": {
+      "author": "Linh",
+      "stars": 5,
+      "text": "Hiệu năng quá đỉnh, viết note vẽ vời bằng Pencil cực kỳ mượt mà và thích."
+    }
+  },
+  {
+    "id": "sp032",
+    "name": "iPad Air M4 11 inch WiFi 128GB",
+    "category": "tablet",
+    "price": 16990000,
+    "oldPrice": 18990000,
+    "emoji": "📱",
+    "image": "/image/xiaomi-pad-8-xanh-duong-thumb-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Máy tính bảng mỏng nhẹ, hiệu năng vượt trội từ chip Apple M-series mới.",
+    "description": "iPad Air tích hợp sức mạnh vượt trội từ chip Apple M-series, màn hình Liquid Retina 11 inch sắc nét cùng khả năng hỗ trợ Apple Pencil Pro, đáp ứng hoàn hảo mọi nhu cầu học tập, làm việc sáng tạo và giải trí.",
+    "rating": 5,
+    "reviewCount": 134,
+    "stock": 88,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Chip: Apple M-series",
+      "Màn hình: 11\" Liquid Retina",
+      "Bộ nhớ: 128GB SSD",
+      "Hỗ trợ: Apple Pencil Pro",
+      "Pin: Lên đến 10 giờ sử dụng"
+    ],
+    "review": {
+      "author": "Linh",
+      "stars": 5,
+      "text": "Mỏng nhẹ, viết note bằng Apple Pencil cực thích và mượt mà."
+    }
+  },
+  {
+    "id": "sp033",
+    "name": "Xiaomi Pad 8 Pro 8GB/128GB",
+    "category": "tablet",
+    "price": 9990000,
+    "oldPrice": 11990000,
+    "emoji": "📱",
+    "image": "/image/xiaomi-pad-8-pro-xanh-la-thumb-600x600.jpg",
+    "badge": "New",
+    "shortDesc": "Máy tính bảng hiệu năng cao với màn hình lớn sắc nét và pin bền bỉ.",
+    "description": "Xiaomi Pad 8 Pro sở hữu thiết kế hiện đại, cấu hình mạnh mẽ với RAM 8GB và bộ nhớ 128GB, mang đến trải nghiệm đa nhiệm mượt mà, xem phim và chơi game giải trí cực đỉnh với tần số quét cao.",
+    "rating": 5,
+    "reviewCount": 134,
+    "stock": 88,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Chip: Snapdragon hiệu năng cao",
+      "RAM/ROM: 8GB / 128GB",
+      "Màn hình: Kích thước lớn, tần số quét cao",
+      "Âm thanh: Loa kép sống động",
+      "Pin: Dung lượng lớn, sạc nhanh"
+    ],
+    "review": {
+      "author": "Linh",
+      "stars": 5,
+      "text": "Máy chạy mượt, màn hình đẹp, pin trâu, giá cực kỳ hợp lý."
+    }
+  },
+  {
+    "id": "sp034",
+    "name": "OPPO Pad SE WiFi màn hình nhám",
+    "category": "tablet",
+    "price": 6990000,
+    "oldPrice": 8490000,
+    "emoji": "📱",
+    "image": "/image/oppo-pad-se-sliver-thumb-600x600.jpg",
+    "badge": "Sale",
+    "shortDesc": "Máy tính bảng màn hình chống lóa nhám đặc biệt, tối ưu cho việc đọc sách và học tập.",
+    "description": "OPPO Pad SE trang bị màn hình nhám chống chói lóa độc đáo giúp giảm mỏi mắt khi sử dụng lâu, thiết kế mỏng nhẹ tinh tế, hoàn hảo cho học sinh, sinh viên học tập, đọc tài liệu và giải trí hàng ngày.",
+    "rating": 5,
+    "reviewCount": 134,
+    "stock": 88,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Màn hình: Chống lóa nhám bảo vệ mắt",
+      "Kết nối: WiFi ổn định",
+      "Thiết kế: Mỏng nhẹ, nguyên khối",
+      "Pin: Bền bỉ cho cả ngày dài",
+      "Hệ điều hành: Giao diện tối ưu mượt mà"
+    ],
+    "review": {
+      "author": "Linh",
+      "stars": 5,
+      "text": "Màn hình nhám đọc sách cực thích, không bị lóa mỏi mắt chút nào."
+    }
+  },
+  {
+    "id": "sp035",
+    "name": "Camera IP Ngoài Trời 360 Độ IMOU Cruiser SC 4G Free Data IPC-K7F-3M1T-X",
+    "category": "phu-kien",
+    "price": 2490000,
+    "oldPrice": 3290000,
+    "emoji": "📷",
+    "image": "/image/camera-ip-ngoai-troi-360-do-imou-cruiser-sc-4g-free-data-ipc-k7f-3m1t-x-thumb-639198844921651974-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Camera an ninh ngoài trời hỗ trợ 4G và xoay 360 độ giám sát toàn diện.",
+    "description": "Camera IMOU Cruiser SC tích hợp kết nối 4G tiện lợi không cần WiFi, khả năng xoay 360 độ ngoài trời bền bỉ, ghi hình sắc nét ban đêm có màu, cảnh báo thông minh giúp bảo vệ an toàn tối đa cho ngôi nhà của bạn.",
+    "rating": 4,
+    "reviewCount": 67,
+    "stock": 22,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Độ phân giải: Sắc nét cao",
+      "Kết nối: Hỗ trợ SIM 4G tiện dụng",
+      "Góc quay: Xoay 360 độ ngoài trời chống nước",
+      "Tính năng: Cảnh báo chuyển động, đàm thoại 2 chiều",
+      "Tầm nhìn ban đêm: Có màu ban đêm"
+    ],
+    "review": {
+      "author": "Thảo",
+      "stars": 4,
+      "text": "Camera dùng mạng 4G cực kỳ tiện lợi ở khu vực ngoài trời không kéo được dây mạng, hình ảnh rõ nét."
+    }
+  },
+  {
+    "id": "sp036",
+    "name": "Chuột sạc Bluetooth Gaming Razer Basilisk V3 Pro 35K Phantom Green Edition",
+    "category": "phu-kien",
+    "price": 3990000,
+    "oldPrice": 4490000,
+    "emoji": "🖱️",
+    "image": "/image/chuot-sac-bluetooth-gaming-razer-basilisk-v3-pro-35k-phantom-green-edition-thumb-638966653278185362-600x600.png",
+    "badge": "Hot",
+    "shortDesc": "Chuột gaming không dây đỉnh cao với cảm biến quang học 35K và thiết kế công thái học.",
+    "description": "Razer Basilisk V3 Pro 35K phiên bản Phantom Green mang lại trải nghiệm đỉnh cao cho game thủ chuyên nghiệp. Sở hữu cảm biến quang học Focus Pro 35K cực kỳ chính xác, kết nối không dây tốc độ cao, hệ thống đèn RGB rực rỡ và độ bền tuyệt đối.",
+    "rating": 5,
+    "reviewCount": 234,
+    "stock": 512,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Cảm biến: Focus Pro 35K Optical Sensor",
+      "Kết nối: Razer HyperSpeed Wireless / Bluetooth / Wired",
+      "Đèn LED: Chroma RGB nhiều vùng",
+      "Trọng lượng: Thiết kế tối ưu công thái học",
+      "Tương thích: Windows, macOS"
+    ],
+    "review": {
+      "author": "Vy",
+      "stars": 5,
+      "text": "Cầm cực kỳ đầm tay, rê chuột mượt mà chính xác, màu xanh Phantom Green đẹp xuất sắc."
+    }
+  },
+  {
+    "id": "sp037",
+    "name": "Bàn Phím Cơ Bluetooth Asus ROG Azoth Wireless Mechanical Gaming Storm",
+    "category": "phu-kien",
+    "price": 5490000,
+    "oldPrice": 5990000,
+    "emoji": "⌨️",
+    "image": "/image/ban-phim-co-bluetooth-asus-rog-azoth-wireless-mechanical-gaming-storm-050925-030813-213-600x600.jpg",
+    "badge": "New",
+    "shortDesc": "Bàn phím cơ custom không dây cao cấp với màn hình OLED và gasket mount êm ái.",
+    "description": "Asus ROG Azoth là bàn phím cơ gaming không dây đỉnh cao trang bị màn hình OLED trực quan, cấu trúc gasket mount tiêu chuẩn custom 3 lớp tiêu âm, switch ROG NX độc quyền bôi trơn sẵn cho cảm giác gõ êm ái và đỉnh cao.",
+    "rating": 5,
+    "reviewCount": 312,
+    "stock": 210,
+    "freeShipping": true,
+    "warranty": "24 tháng",
+    "specs": [
+      "Kết nối: Tri-mode (Wireless 2.4GHz, Bluetooth, USB-C)",
+      "Switch: ROG NX Mechanical Switch",
+      "Màn hình: OLED hiển thị trạng thái và thông tin",
+      "Cấu trúc: Gasket Mount với lót tiêu âm 3 lớp",
+      "Keycap: PBT Doubleshot cao cấp"
+    ],
+    "review": {
+      "author": "Đạt",
+      "stars": 5,
+      "text": "Gõ êm, âm thanh thocky cực kỳ thỏa mãn, màn hình OLED độc đáo, bàn phím hoàn hảo nhất từng dùng."
+    }
+  },
+  {
+    "id": "sp038",
+    "name": "Loa Bluetooth Harman Kardon Aura Studio 5 Wifi",
+    "category": "phu-kien",
+    "price": 6990000,
+    "oldPrice": 7990000,
+    "emoji": "🔊",
+    "image": "/image/loa-bluetooth-harman-kardon-aura-studio-5-wifi-thumb-639156445293471762-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Loa Bluetooth cao cấp thiết kế trong suốt mang âm thanh 360 độ sống động.",
+    "description": "Harman Kardon Aura Studio 5 mang phong cách thiết kế biểu tượng trong suốt kết hợp ánh sáng nghệ thuật và chất âm 360 độ mạnh mẽ. Tích hợp kết nối WiFi tiện lợi, mang lại trải nghiệm âm nhạc đắm chìm cho không gian nội thất sang trọng.",
+    "rating": 5,
+    "reviewCount": 145,
+    "stock": 168,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Âm thanh: Đa hướng 360 độ, âm bass sâu lắng",
+      "Kết nối: Bluetooth, Wi-Fi cao cấp",
+      "Thiết kế: Vòm trong suốt sang trọng kết hợp đèn LED",
+      "Nguồn điện: Adapter trực tiếp ổn định",
+      "Tương thích: Ứng dụng điều khiển thông minh"
+    ],
+    "review": {
+      "author": "Trang",
+      "stars": 5,
+      "text": "Âm thanh cực kỳ chi tiết, bass ấm áp, đặt trong phòng khách nhìn như một tác phẩm nghệ thuật."
+    }
+  },
+  {
+    "id": "sp039",
+    "name": "Xiaomi Ultrathin 22.5W MDY-20-EB",
+    "category": "phu-kien",
+    "price": 890000,
+    "oldPrice": 1290000,
+    "emoji": "🔋",
+    "image": "/image/pin-sac-du-phong-5000mah-khong-day-magnetic-type-c-pd-22-5w-xiaomi-ultrathin-mdy-20-eb-cam-thumb-639124582231391536-600x600.jpg",
+    "badge": "Sale",
+    "shortDesc": "Pin sạc dự phòng không dây từ tính siêu mỏng nhẹ, hỗ trợ sạc nhanh 22.5W.",
+    "description": "Xiaomi Ultrathin Magnetic Power Bank sở hữu thiết kế siêu mỏng nhẹ tinh tế, hỗ trợ sạc không dây từ tính nam châm hít chắc chắn vào điện thoại cùng công suất sạc nhanh PD 22.5W, giải pháp năng lượng di động hoàn hảo hàng ngày.",
+    "rating": 4,
+    "reviewCount": 456,
+    "stock": 380,
+    "freeShipping": true,
+    "warranty": "12 tháng",
+    "specs": [
+      "Dung lượng: 5000mAh gọn nhẹ",
+      "Công suất: Sạc nhanh có dây & không dây từ tính 22.5W Max",
+      "Thiết kế: Siêu mỏng dễ dàng mang theo",
+      "Cổng kết nối: Type-C PD hai chiều",
+      "Tính năng: Hít nam châm từ tính tiện lợi"
+    ],
+    "review": {
+      "author": "Phúc",
+      "stars": 4,
+      "text": "Mỏng nhẹ gắn sau điện thoại không bị vướng víu, sạc nhanh rất tiện khi di chuyển bên ngoài."
+    }
+  },
+  {
+    "id": "sp040",
+    "name": "Router Wifi Chuẩn Wifi 6 Asus TUF Gaming AX4200",
+    "category": "phu-kien",
+    "price": 2890000,
+    "oldPrice": 3490000,
+    "emoji": "📡",
+    "image": "/image/router-wifi-chuan-wifi-6-asus-tuf-gaming-ax4200-thumb-600x600.jpg",
+    "badge": "Hot",
+    "shortDesc": "Router Wi-Fi 6 gaming hiệu suất cao, độ ổn định tuyệt đối và độ trễ thấp.",
+    "description": "Asus TUF Gaming AX4200 mang đến kết nối Wi-Fi 6 siêu tốc, công nghệ tối ưu hóa chơi game độc quyền, độ bền chuẩn quân đội và khả năng phủ sóng rộng lớn, loại bỏ hoàn toàn hiện tượng giật lag khi chơi game trực tuyến.",
+    "rating": 5,
+    "reviewCount": 123,
+    "stock": 60,
+    "freeShipping": true,
+    "warranty": "36 tháng",
+    "specs": [
+      "Chuẩn Wi-Fi: Wi-Fi 6 (802.11ax)",
+      "Tốc độ: Lên đến 4200 Mbps",
+      "Tính năng gaming: Chế độ Mobile Game tối ưu độ trễ",
+      "Cổng kết nối: Cổng WAN/LAN tốc độ cao",
+      "Phủ sóng: Diện tích rộng với ăng-ten ngoài mạnh mẽ"
+    ],
+    "review": {
+      "author": "Bảo",
+      "stars": 5,
+      "text": "Sóng khỏe, phủ kín nhà nhiều tầng, ping chơi game cực kỳ ổn định và mượt mà."
+    }
+  },
+  {
+    "id": "sp041",
+    "name": "Sim 4G Trọn Gói 1 Năm",
+    "category": "sim",
+    "price": 490000,
+    "oldPrice": 690000,
+    "emoji": "📶",
+    "image": "/image/vn-11134207-7ras8-mapbeqm767ko09@resize_w450_nl.webp",
+    "badge": "Sale",
+    "shortDesc": "Sim 4G trọn gói dùng suốt 1 năm không cần nạp tiền, tặng dung lượng khủng mỗi ngày.",
+    "description": "Sim 4G tốc độ cao trọn gói chu kỳ 12 tháng, miễn phí dung lượng data mỗi ngày thoải mái xem phim, lướt web, học tập và làm việc di động mà không phát sinh thêm bất kỳ chi phí duy trì nào.",
+    "rating": 4,
+    "reviewCount": 210,
+    "stock": 999,
+    "freeShipping": true,
+    "warranty": "Không áp dụng",
+    "specs": [
+      "Dung lượng data: Tốc độ cao mỗi ngày",
+      "Thời hạn sử dụng: Trọn gói 12 tháng không nạp tiền",
+      "Tiện ích: Phù hợp mọi thiết bị phát Wi-Fi, điện thoại",
+      "Kích hoạt: Đăng ký thông tin chính chủ sẵn sàng sử dụng",
+      "Phí duy trì hàng tháng: 0 đồng"
+    ],
+    "review": {
+      "author": "Hà",
+      "stars": 4,
+      "text": "Mạng khỏe, dùng cả năm rất tiện lợi không phải lo nạp tiền hàng tháng."
+    }
+  },
+  {
+    "id": "sp042",
+    "name": "Gói Bảo Hành Mở Rộng",
+    "category": "dich-vu",
+    "price": 890000,
+    "oldPrice": 1290000,
+    "emoji": "🛡️",
+    "image": "/image/images.jpg",
+    "badge": "New",
+    "shortDesc": "Gói gia hạn bảo hành chính hãng thêm 6 tháng, bảo vệ toàn diện cho thiết bị.",
+    "description": "Dịch vụ bảo hành mở rộng giúp kéo dài thời gian bảo vệ thiết bị điện tử của bạn thêm 12 tháng, hỗ trợ sửa chữa chuyên nghiệp và thay thế linh kiện chính hãng miễn phí đối với các lỗi từ nhà sản xuất.",
+    "rating": 5,
+    "reviewCount": 45,
+    "stock": 999,
+    "freeShipping": true,
+    "warranty": "Không áp dụng",
+    "specs": [
+      "Thời gian gia hạn: Thêm 6 tháng",
+      "Đối tượng áp dụng: Điện thoại, máy tính bảng, laptop",
+      "Quyền lợi: Sửa chữa và thay thế linh kiện chính hãng",
+      "Kích hoạt điện tử: Nhanh chóng qua mã code / email",
+      "Hỗ trợ: Toàn hệ thống trung tâm bảo hành"
+    ],
+    "review": {
+      "author": "Yến",
+      "stars": 5,
+      "text": "Mua gói này xong dùng thiết bị cảm giác an tâm hơn hẳn, rất đáng tiền đầu tư."
+    }
+  }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Trọng Nhân",
+      "email": "nhan@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyễn Văn A",
+      "email": "vana@gmail.com",
+      "password": "123456"
+    }
+  ]
+}

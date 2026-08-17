@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Chi tiết sản phẩm</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header class="site-header">
+		<div class="header-inner">
+			<a href="../index.html" class="brand">My Shop</a>
+			<div class="header-search">
+				<input type="text" placeholder="Tìm kiếm sản phẩm...">
+				<button class="search-button" type="button" aria-label="Tìm kiếm">🔍</button>
+			</div>
+			<div class="header-actions">
+				<a href="login.html" class="header-btn header-login-link">Login</a>
+				<a href="cart.html" class="header-btn">Giỏ hàng<span class="header-cart-count"></span></a>
+			</div>
+		</div>
+	</header>
+
+	<nav class="category-nav">
+		<div class="category-nav-inner">
+			<a href="#" data-category="dien-thoai">Điện thoại</a>
+			<a href="#" data-category="laptop">Laptop</a>
+			<a href="#" data-category="phu-kien">Phụ kiện</a>
+			<a href="#" data-category="smartwatch">Smartwatch</a>
+			<a href="#" data-category="dong-ho">Đồng hồ</a>
+			<a href="#" data-category="tablet">Tablet</a>
+			<a href="#" data-category="may-cu">Máy cũ, Thu cũ</a>
+			<a href="#" data-category="man-hinh">Màn hình, Máy in</a>
+			<a href="#" data-category="sim">Sim, Thẻ cào</a>
+			<a href="#" data-category="dich-vu">Dịch vụ tiện ích</a>
+		</div>
+	</nav>
+
+	<main class="container">
+		<div class="flex-row box">
+			<div class="box col-half">
+				<div class="product-image">
+					<img id="detailMainImage" src="" alt="Sản phẩm">
+				</div>
+			</div>
+			<div class="box col-half">
+				<h2 id="detailTitle">Đang tải...</h2>
+				<div class="product-rating" id="detailRating"></div>
+				<p id="detailDescription"></p>
+
+				<div class="price-section">
+					<div id="detailPriceWrapper">
+						<h3 id="detailPrice"></h3>
+						<span class="product-old-price" id="detailOldPrice" hidden></span>
+						<span class="badge" hidden></span>
+					</div>
+					<div class="price-row">
+						<span class="price-label">Giao hàng miễn phí:</span>
+						<span class="price-value" id="detailShippingValue">-</span>
+					</div>
+					<div class="price-row">
+						<span class="price-label">Bảo hành:</span>
+						<span class="price-value" id="detailWarrantyValue">-</span>
+					</div>
+				</div>
+
+				<div id="detailSpecsWrapper">
+					<h4 id="detailSpecTitle">Thông số kỹ thuật:</h4>
+					<ul id="detailSpecList"></ul>
+				</div>
+
+				<div id="detailQtyRow">
+					<div id="detailQtyControl">
+						<button class="detail-qty-btn" type="button">-</button>
+						<span id="detailQtyValue">1</span>
+						<button class="detail-qty-btn" type="button">+</button>
+					</div>
+					<button id="detailAddToCartBtn" type="button">Thêm vào giỏ</button>
+				</div>
+
+				<button id="detailBuyBtn" type="button">Mua ngay</button>
+			</div>
+		</div>
+
+		<div class="box mt-20">
+			<h3>Đánh giá từ khách hàng</h3>
+			<div id="detailReviewBlock">
+				<div id="detailReviewRow">
+					<div id="detailReviewAvatar"></div>
+					<div>
+						<div id="detailReviewer"></div>
+						<div class="stars" id="detailReviewStars"></div>
+						<p id="detailReviewText"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<p>© 2026 My Shop</p>
+	</footer>
+
+	<script src="../js/common.js"></script>
+	<script src="../js/api.js"></script>
+	<script src="../js/detail.js"></script>
+</body>
+
+</html>

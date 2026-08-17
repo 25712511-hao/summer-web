@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Danh sách sản phẩm</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header class="site-header">
+		<div class="header-inner">
+			<a href="../index.html" class="brand">My Shop</a>
+			<div class="header-search">
+				<input type="text" placeholder="Tìm kiếm sản phẩm...">
+				<button class="search-button" type="button" aria-label="Tìm kiếm">🔍</button>
+			</div>
+			<div class="header-actions">
+				<a href="login.html" class="header-btn header-login-link">Login</a>
+				<a href="cart.html" class="header-btn">Giỏ hàng<span class="header-cart-count"></span></a>
+			</div>
+		</div>
+	</header>
+
+	<nav class="category-nav">
+		<div class="category-nav-inner">
+			<a href="#" data-category="dien-thoai">Điện thoại</a>
+			<a href="#" data-category="laptop">Laptop</a>
+			<a href="#" data-category="phu-kien">Phụ kiện</a>
+			<a href="#" data-category="smartwatch">Smartwatch</a>
+			<a href="#" data-category="dong-ho">Đồng hồ</a>
+			<a href="#" data-category="tablet">Tablet</a>
+			<a href="#" data-category="may-cu">Máy cũ, Thu cũ</a>
+			<a href="#" data-category="man-hinh">Màn hình, Máy in</a>
+			<a href="#" data-category="sim">Sim, Thẻ cào</a>
+			<a href="#" data-category="dich-vu">Dịch vụ tiện ích</a>
+		</div>
+	</nav>
+
+	<main class="container">
+		<h2 id="productsPageTitle">Danh sách sản phẩm</h2>
+
+		<p id="productsLoading" hidden>Đang tải danh sách sản phẩm...</p>
+		<p id="productsError" hidden></p>
+		<p id="productsEmpty" hidden>Không tìm thấy sản phẩm phù hợp.</p>
+
+		<div class="grid-layout mt-20" id="productsGrid"></div>
+	</main>
+
+	<footer>
+		<p>© 2026 My Shop</p>
+	</footer>
+
+	<script src="../js/common.js"></script>
+	<script src="../js/api.js"></script>
+	<script src="../js/products.js"></script>
+</body>
+
+</html>
