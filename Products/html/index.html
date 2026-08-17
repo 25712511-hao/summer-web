@@ -39,28 +39,35 @@
 
   <main class="container">
     <div class="hero-banner" id="homeHero">
-      <div class="hero-track">
-        <div class="hero-slide hero-slide-one active">
+      <div class="hero-track" id="heroTrack">
+        <div class="hero-slide hero-slide-one">
           <div class="hero-content">
-            <h2 id="homeHeroTitle">Chào mừng đến My Shop</h2>
-            <p id="homeHeroSubtitle">Khám phá hàng ngàn sản phẩm chất lượng cao</p>
+            <h2>Chào mừng đến My Shop</h2>
+            <p>Khám phá hàng ngàn sản phẩm công nghệ chất lượng cao với ưu đãi lớn!</p>
           </div>
         </div>
         <div class="hero-slide hero-slide-two">
           <div class="hero-content">
-            <h2 id="homeHeroTitle">Chào mừng đến My Shop</h2>
-            <p id="homeHeroSubtitle">Khám phá hàng ngàn sản phẩm chất lượng cao</p>
+            <h2>Siêu Bão Sale Tháng 8</h2>
+            <p>Giảm giá đến 50% cho các sản phẩm Smartwatch & Laptop thế hệ mới</p>
+          </div>
+        </div>
+        <div class="hero-slide hero-slide-three">
+          <div class="hero-content">
+            <h2>Trải Nghiệm Âm Thanh Đỉnh Cao</h2>
+            <p>Khử tiếng ồn chủ động, âm thanh chân thực đỉnh cao 360°</p>
           </div>
         </div>
       </div>
 
       <div class="hero-controls">
-        <button class="hero-arrow hero-prev" type="button" aria-label="Banner trước">&#10094;</button>
-        <button class="hero-arrow hero-next" type="button" aria-label="Banner tiếp theo">&#10095;</button>
+        <button class="hero-arrow hero-prev" id="heroPrev" type="button" aria-label="Banner trước">&#10094;</button>
+        <button class="hero-arrow hero-next" id="heroNext" type="button" aria-label="Banner tiếp theo">&#10095;</button>
 
-        <div class="hero-dots" aria-label="Chọn banner">
-          <button class="hero-dot active" type="button" aria-label="Banner 1"></button>
-          <button class="hero-dot" type="button" aria-label="Banner 2"></button>
+        <div class="hero-dots" id="heroDots" aria-label="Chọn banner">
+          <button class="hero-dot active" data-slide="0" type="button" aria-label="Banner 1"></button>
+          <button class="hero-dot" data-slide="1" type="button" aria-label="Banner 2"></button>
+          <button class="hero-dot" data-slide="2" type="button" aria-label="Banner 3"></button>
         </div>
       </div>
     </div>
@@ -174,6 +181,6 @@
   </main>
 
   <footer><p>© 2026 My Shop</p></footer>
-<script src="../js/main.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>

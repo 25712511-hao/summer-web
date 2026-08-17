@@ -3,71 +3,81 @@ function formatPrice(num) {
     return new Intl.NumberFormat('vi-VN').format(num);
 }
 
-const heroBanner = document.querySelector('.hero-banner');
-const heroTrack = document.querySelector('.hero-track');
-const heroSlides = document.querySelectorAll('.hero-slide');
-const heroDots = document.querySelectorAll('.hero-dot');
-const prevBtn = document.querySelector('.hero-prev');
-const nextBtn = document.querySelector('.hero-next');
-let heroIndex = 0;
-let startX = 0;
-let isDragging = false;
-let currentTranslate = 0;
+    // carousel
+    document.addEventListener('DOMContentLoaded', () => {
+        const heroBanner = document.getElementById('homeHero');
+        const track = document.getElementById('heroTrack');
+        const slides = Array.from(track.children);
+        const prevBtn = document.getElementById('heroPrev');
+        const nextBtn = document.getElementById('heroNext');
+        const dotsNav = document.getElementById('heroDots');
+        const dots = Array.from(dotsNav.children);
 
-if (heroBanner && heroTrack && prevBtn && nextBtn) {
+        let currentIndex = 0;
+        let slideInterval = null;
+        const AUTO_PLAY_DELAY = 4000;
 
-function updateHero(index) {
-    heroIndex = (index + heroSlides.length) % heroSlides.length;
-    currentTranslate = -heroIndex * 50;
-    heroTrack.style.transform = `translateX(${currentTranslate}%)`;
+        function goToSlide(index) {
+            if (index < 0) {
+                currentIndex = slides.length - 1;
+            } else if (index >= slides.length) {
+                currentIndex = 0;
+            } else {
+                currentIndex = index;
+            }
 
-    heroDots.forEach((dot, i) => {
-    dot.classList.toggle('active', i === heroIndex);
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === currentIndex);
+            });
+        }
+
+        function nextSlide() {
+            goToSlide(currentIndex + 1);
+        }
+
+        function prevSlide() {
+            goToSlide(currentIndex - 1);
+        }
+
+        function startAutoPlay() {
+            stopAutoPlay();
+            slideInterval = setInterval(nextSlide, AUTO_PLAY_DELAY);
+        }
+
+        function stopAutoPlay() {
+            if (slideInterval) {
+                clearInterval(slideInterval);
+            }
+        }
+
+        nextBtn.addEventListener('click', () => {
+            nextSlide();
+            startAutoPlay();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            prevSlide();
+            startAutoPlay();
+        });
+
+        dotsNav.addEventListener('click', (e) => {
+            const targetDot = e.target.closest('.hero-dot');
+            if (!targetDot) return;
+
+            const targetIndex = parseInt(targetDot.dataset.slide, 10);
+            goToSlide(targetIndex);
+            startAutoPlay();
+        });
+
+        heroBanner.addEventListener('mouseenter', stopAutoPlay);
+        heroBanner.addEventListener('mouseleave', startAutoPlay);
+
+        goToSlide(0);
+        startAutoPlay();
     });
-}
 
-prevBtn.addEventListener('click', () => updateHero(heroIndex - 1));
-nextBtn.addEventListener('click', () => updateHero(heroIndex + 1));
-heroDots.forEach((dot, index) => {
-    dot.addEventListener('click', () => updateHero(index));
-});
-
-heroBanner.addEventListener('pointerdown', (event) => {
-    isDragging = true;
-    startX = event.clientX;
-    heroBanner.setPointerCapture(event.pointerId);
-});
-
-heroBanner.addEventListener('pointermove', (event) => {
-    if (!isDragging) return;
-    const deltaX = event.clientX - startX;
-    const dragPercent = (deltaX / heroBanner.clientWidth) * 100;
-    const nextTranslate = currentTranslate + dragPercent / 2;
-    heroTrack.style.transform = `translateX(${nextTranslate}%)`;
-});
-
-heroBanner.addEventListener('pointerup', (event) => {
-    if (!isDragging) return;
-    isDragging = false;
-    const deltaX = event.clientX - startX;
-    const threshold = heroBanner.clientWidth * 0.12;
-
-    if (deltaX > threshold) {
-    updateHero(heroIndex - 1);
-    } else if (deltaX < -threshold) {
-    updateHero(heroIndex + 1);
-    } else {
-    updateHero(heroIndex);
-    }
-});
-
-heroBanner.addEventListener('pointerleave', () => {
-    if (isDragging) {
-    updateHero(heroIndex);
-    isDragging = false;
-    }
-});
-}
 
 document.querySelectorAll('.add-to-cart').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -365,3 +375,4 @@ document.querySelectorAll('.add-to-cart').forEach(btn => {
     }, 1500);
     });
 });
+
