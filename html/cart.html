@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Giỏ hàng</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header class="site-header">
+		<div class="header-inner">
+			<a href="../index.html" class="brand">My Shop</a>
+			<div class="header-search">
+				<input type="text" placeholder="Tìm kiếm sản phẩm...">
+				<button class="search-button" type="button" aria-label="Tìm kiếm">🔍</button>
+			</div>
+			<div class="header-actions">
+				<a href="login.html" class="header-btn header-login-link">Login</a>
+				<a href="cart.html" class="header-btn">Giỏ hàng<span class="header-cart-count"></span></a>
+			</div>
+		</div>
+	</header>
+
+	<nav class="category-nav">
+		<div class="category-nav-inner">
+			<a href="#" data-category="dien-thoai">Điện thoại</a>
+			<a href="#" data-category="laptop">Laptop</a>
+			<a href="#" data-category="phu-kien">Phụ kiện</a>
+			<a href="#" data-category="smartwatch">Smartwatch</a>
+			<a href="#" data-category="dong-ho">Đồng hồ</a>
+			<a href="#" data-category="tablet">Tablet</a>
+			<a href="#" data-category="may-cu">Máy cũ, Thu cũ</a>
+			<a href="#" data-category="man-hinh">Màn hình, Máy in</a>
+			<a href="#" data-category="sim">Sim, Thẻ cào</a>
+			<a href="#" data-category="dich-vu">Dịch vụ liên ích</a>
+		</div>
+	</nav>
+
+	<main class="container flex-row">
+		<div class="box" id="cartBoxMain">
+			<h2 id="cartTitle">Giỏ hàng của bạn (<span id="cartCount">0</span> sản phẩm)</h2>
+			<table class="w-100" id="cartTable">
+				<tr>
+					<th>Sản phẩm</th>
+					<th>Đơn giá</th>
+					<th>Số lượng</th>
+					<th>Thành tiền</th>
+					<th></th>
+				</tr>
+				<tr>
+					<td colspan="5" id="cartEmptyCell">
+						<div id="cartEmptyIcon">🛒</div>
+						<div id="cartEmptyTitle">Giỏ hàng trống</div>
+						<p id="cartEmptyText">Bạn chưa thêm sản phẩm nào vào giỏ hàng.</p>
+						<a href="products.html" id="cartEmptyLink">Tiếp tục mua sắm</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="box" id="checkoutBox">
+			<h2 id="checkoutTitle">Thanh toán</h2>
+			<div class="price-row">
+				<span class="price-label">Tổng tiền hàng:</span>
+				<span class="price-value" id="subtotal">0 ₫</span>
+			</div>
+			<div class="price-row">
+				<span class="price-label">Phí vận chuyển:</span>
+				<span class="price-value" id="shippingValue">Miễn phí</span>
+			</div>
+			<div class="price-row">
+				<span class="price-label">Giảm giá:</span>
+				<span class="price-value" id="discountValue">0 ₫</span>
+			</div>
+			<hr id="checkoutDivider">
+			<div class="price-row" id="totalRow">
+				<span id="totalLabel">Tổng cộng:</span>
+				<span id="total">0 ₫</span>
+			</div>
+
+			<input type="text" id="couponInput" placeholder="Mã khuyến mãi" disabled>
+			<button class="w-100" id="applyCouponBtn" disabled>Áp dụng mã</button>
+			<button class="w-100" id="checkoutBtn" disabled>Tiến hành thanh toán</button>
+
+			<a href="products.html" id="checkoutContinueLink">Tiếp tục mua sắm</a>
+		</div>
+	</main>
+
+	<footer>
+		<p>© 2026 My Shop</p>
+	</footer>
+
+	<script src="../js/common.js"></script>
+	<script src="../js/cart.js"></script>
+
+</body>
+
+</html>

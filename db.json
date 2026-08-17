@@ -1,0 +1,466 @@
+{
+  "products": [
+    {
+      "id": "sp1",
+      "name": "Smartphone Pro Max",
+      "category": "dien-thoai",
+      "price": 12999000,
+      "oldPrice": 15999000,
+      "emoji": "📱",
+      "badge": "Hot",
+      "shortDesc": "Điện thoại cao cấp với màn hình AMOLED 120Hz",
+      "description": "Điện thoại thông minh cao cấp với màn hình AMOLED 120Hz, chip A18 Bionic nhanh nhất, hệ thống camera ba ống kính chuyên nghiệp, và thời lượng pin kéo dài tới 24 giờ.",
+      "rating": 5,
+      "reviewCount": 248,
+      "stock": 156,
+      "freeShipping": true,
+      "warranty": "24 tháng",
+      "specs": [
+        "Màn hình: 6.7\" AMOLED, 120Hz, 2796×1290",
+        "Chip: A18 Bionic",
+        "RAM: 8GB",
+        "Bộ nhớ: 256GB/512GB/1TB",
+        "Camera: Chính 48MP + Tele 12MP + Ultra-wide 12MP"
+      ],
+      "review": {
+        "author": "Ấn",
+        "stars": 5,
+        "text": "Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận. Rất hài lòng!"
+      }
+    },
+    {
+      "id": "sp2",
+      "name": "Smartwatch Ultra",
+      "category": "smartwatch",
+      "price": 5499000,
+      "oldPrice": 6999000,
+      "emoji": "⌚",
+      "badge": "Sale",
+      "shortDesc": "Đồng hồ thông minh với GPS và theo dõi sức khỏe",
+      "description": "Đồng hồ thông minh cao cấp với GPS tích hợp, theo dõi sức khỏe 24/7, đo nồng độ oxy trong máu và pin sử dụng liên tục lên đến 7 ngày.",
+      "rating": 4,
+      "reviewCount": 156,
+      "stock": 98,
+      "freeShipping": true,
+      "warranty": "12 tháng",
+      "specs": [
+        "Màn hình: 1.9\" AMOLED luôn bật",
+        "Pin: 7 ngày sử dụng liên tục",
+        "Chống nước: 5ATM",
+        "Cảm biến: Nhịp tim, SpO2, GPS",
+        "Kết nối: Bluetooth 5.3"
+      ],
+      "review": {
+        "author": "Minh",
+        "stars": 4,
+        "text": "Pin trâu, đo sức khỏe khá chính xác, giá hợp lý."
+      }
+    },
+    {
+      "id": "sp3",
+      "name": "AirPods Pro",
+      "category": "phu-kien",
+      "price": 4999000,
+      "oldPrice": null,
+      "emoji": "🎧",
+      "badge": "",
+      "shortDesc": "Tai nghe không dây với khử tiếng ồn chủ động",
+      "description": "Tai nghe không dây cao cấp với công nghệ khử tiếng ồn chủ động (ANC), âm thanh không gian và thời lượng pin lên đến 6 giờ nghe nhạc liên tục.",
+      "rating": 5,
+      "reviewCount": 412,
+      "stock": 320,
+      "freeShipping": true,
+      "warranty": "12 tháng",
+      "specs": [
+        "Chip: H2",
+        "Chống ồn chủ động (ANC)",
+        "Âm thanh không gian cá nhân hóa",
+        "Pin: 6 giờ (tai nghe) + 24 giờ (hộp sạc)",
+        "Chống nước, chống mồ hôi IPX4"
+      ],
+      "review": {
+        "author": "Ngọc",
+        "stars": 5,
+        "text": "Chống ồn cực tốt, đeo êm tai, đáng tiền."
+      }
+    },
+    {
+      "id": "sp4",
+      "name": "MacBook Pro 14\"",
+      "category": "laptop",
+      "price": 32999000,
+      "oldPrice": null,
+      "emoji": "💻",
+      "badge": "New",
+      "shortDesc": "Laptop siêu mỏng với chip M4 Pro mạnh mẽ",
+      "description": "Laptop cao cấp mỏng nhẹ, trang bị chip M4 Pro mạnh mẽ, màn hình Liquid Retina XDR sắc nét và thời lượng pin lên đến 18 giờ, phù hợp cho công việc sáng tạo chuyên nghiệp.",
+      "rating": 5,
+      "reviewCount": 89,
+      "stock": 34,
+      "freeShipping": true,
+      "warranty": "12 tháng",
+      "specs": [
+        "Chip: Apple M4 Pro",
+        "RAM: 16GB",
+        "Ổ cứng: 512GB SSD",
+        "Màn hình: 14.2\" Liquid Retina XDR",
+        "Pin: lên đến 18 giờ"
+      ],
+      "review": {
+        "author": "Huy",
+        "stars": 5,
+        "text": "Máy mạnh, mát, màn hình đẹp xuất sắc."
+      }
+    },
+    {
+      "id": "sp5",
+      "name": "Camera Mirrorless",
+      "category": "phu-kien",
+      "price": 18999000,
+      "oldPrice": null,
+      "emoji": "📷",
+      "badge": "",
+      "shortDesc": "Máy ảnh chuyên nghiệp với 4K video",
+      "description": "Máy ảnh mirrorless chuyên nghiệp cảm biến 24MP, quay video 4K, hệ thống lấy nét tự động nhanh và ổn định hình ảnh 8 stops.",
+      "rating": 4,
+      "reviewCount": 67,
+      "stock": 22,
+      "freeShipping": false,
+      "warranty": "24 tháng",
+      "specs": [
+        "Cảm biến: 24MP Full-frame",
+        "Video: 4K 60fps",
+        "Chống rung: 8 stops IBIS",
+        "ISO: 100 - 51200",
+        "Kết nối: WiFi, Bluetooth"
+      ],
+      "review": {
+        "author": "Thảo",
+        "stars": 4,
+        "text": "Ảnh chụp sắc nét, quay 4K mượt, hơi nặng tay."
+      }
+    },
+    {
+      "id": "sp6",
+      "name": "Monitor 4K 27\"",
+      "category": "man-hinh",
+      "price": 9999000,
+      "oldPrice": null,
+      "emoji": "🖥️",
+      "badge": "",
+      "shortDesc": "Màn hình cao cấp 144Hz HDR",
+      "description": "Màn hình 4K 27 inch tần số quét 144Hz, hỗ trợ HDR, cổng USB-C và Thunderbolt 3, phù hợp cho làm việc và chơi game đồ họa cao.",
+      "rating": 5,
+      "reviewCount": 78,
+      "stock": 45,
+      "freeShipping": true,
+      "warranty": "36 tháng",
+      "specs": [
+        "Độ phân giải: 3840×2160 (4K)",
+        "Tần số quét: 144Hz",
+        "HDR: HDR400",
+        "Cổng: USB-C, Thunderbolt 3, HDMI 2.1",
+        "Tấm nền: IPS"
+      ],
+      "review": {
+        "author": "Long",
+        "stars": 5,
+        "text": "Màn siêu đẹp, màu chuẩn, đáng đầu tư."
+      }
+    },
+    {
+      "id": "sp7",
+      "name": "Chuột Không Dây",
+      "category": "phu-kien",
+      "price": 1299000,
+      "oldPrice": null,
+      "emoji": "🖱️",
+      "badge": "New",
+      "shortDesc": "Bluetooth, pin 6 tháng, 4000 DPI",
+      "description": "Chuột không dây kết nối Bluetooth, thời lượng pin lên đến 6 tháng, độ nhạy 4000 DPI, thiết kế công thái học thoải mái khi sử dụng lâu.",
+      "rating": 4,
+      "reviewCount": 234,
+      "stock": 512,
+      "freeShipping": true,
+      "warranty": "12 tháng",
+      "specs": [
+        "Kết nối: Bluetooth 5.0 / USB receiver",
+        "DPI: 4000",
+        "Pin: AA, dùng đến 6 tháng",
+        "Trọng lượng: 90g",
+        "Tương thích: Windows, macOS"
+      ],
+      "review": {
+        "author": "Vy",
+        "stars": 4,
+        "text": "Nhỏ gọn, dùng êm tay, pin bền."
+      }
+    },
+    {
+      "id": "sp8",
+      "name": "Bàn phím Cơ",
+      "category": "phu-kien",
+      "price": 3499000,
+      "oldPrice": null,
+      "emoji": "⌨️",
+      "badge": "",
+      "shortDesc": "Cherry MX, RGB backlit, USB-C",
+      "description": "Bàn phím cơ dùng switch Cherry MX chính hãng, đèn nền RGB tùy chỉnh, kết nối USB-C tháo rời tiện lợi, khung nhôm nguyên khối chắc chắn.",
+      "rating": 5,
+      "reviewCount": 312,
+      "stock": 210,
+      "freeShipping": true,
+      "warranty": "24 tháng",
+      "specs": [
+        "Switch: Cherry MX Red/Brown",
+        "Đèn nền: RGB per-key",
+        "Kết nối: USB-C có thể tháo rời",
+        "Khung: Nhôm CNC",
+        "Layout: Fullsize 104 phím"
+      ],
+      "review": {
+        "author": "Đạt",
+        "stars": 5,
+        "text": "Gõ đã tay, đèn đẹp, chắc chắn."
+      }
+    },
+    {
+      "id": "sp9",
+      "name": "Loa Bluetooth Premium",
+      "category": "phu-kien",
+      "price": 2999000,
+      "oldPrice": null,
+      "emoji": "🔊",
+      "badge": "",
+      "shortDesc": "360° âm thanh, pin 12 giờ, chống nước",
+      "description": "Loa Bluetooth di động âm thanh 360 độ, thời lượng pin 12 giờ, chống nước chuẩn IPX7, kết nối được nhiều loa để tăng âm lượng.",
+      "rating": 4,
+      "reviewCount": 145,
+      "stock": 168,
+      "freeShipping": true,
+      "warranty": "12 tháng",
+      "specs": [
+        "Công suất: 30W",
+        "Pin: 12 giờ",
+        "Chống nước: IPX7",
+        "Kết nối: Bluetooth 5.2, đa loa",
+        "Micro thoại tích hợp"
+      ],
+      "review": {
+        "author": "Trang",
+        "stars": 4,
+        "text": "Âm thanh to, ấm, dùng ngoài trời rất ổn."
+      }
+    },
+    {
+      "id": "sp10",
+      "name": "Power Bank 100W",
+      "category": "phu-kien",
+      "price": 1899000,
+      "oldPrice": null,
+      "emoji": "🔋",
+      "badge": "",
+      "shortDesc": "30000mAh, USB-C, sạc nhanh 65W",
+      "description": "Pin sạc dự phòng dung lượng 30000mAh, hỗ trợ sạc nhanh 65W hai chiều, đủ sạc đầy laptop, điện thoại và các thiết bị khác nhiều lần.",
+      "rating": 4,
+      "reviewCount": 456,
+      "stock": 380,
+      "freeShipping": true,
+      "warranty": "12 tháng",
+      "specs": [
+        "Dung lượng: 30000mAh",
+        "Công suất sạc: 65W (USB-C)",
+        "Cổng: 2x USB-C, 1x USB-A",
+        "Sạc laptop: Có",
+        "Màn hình LED hiển thị %"
+      ],
+      "review": {
+        "author": "Phúc",
+        "stars": 4,
+        "text": "Sạc nhanh thật, mang theo đi công tác rất tiện."
+      }
+    },
+    {
+      "id": "sp11",
+      "name": "Gaming Mouse",
+      "category": "phu-kien",
+      "price": 1599000,
+      "oldPrice": null,
+      "emoji": "🎮",
+      "badge": "",
+      "shortDesc": "20000 DPI, 8 nút lập trình, RGB",
+      "description": "Chuột chơi game độ nhạy cao 20000 DPI, 8 nút có thể lập trình, đèn RGB tùy chỉnh, cảm biến quang học chính xác cho game thủ chuyên nghiệp.",
+      "rating": 5,
+      "reviewCount": 389,
+      "stock": 275,
+      "freeShipping": true,
+      "warranty": "24 tháng",
+      "specs": [
+        "DPI: 100 - 20000",
+        "Nút bấm: 8 nút lập trình",
+        "Đèn: RGB 16.8 triệu màu",
+        "Trọng lượng: 79g",
+        "Độ bền switch: 50 triệu lần click"
+      ],
+      "review": {
+        "author": "Khoa",
+        "stars": 5,
+        "text": "Nhạy, nhẹ tay, chơi FPS rất đã."
+      }
+    },
+    {
+      "id": "sp12",
+      "name": "Router WiFi 6E",
+      "category": "phu-kien",
+      "price": 4499000,
+      "oldPrice": null,
+      "emoji": "📡",
+      "badge": "",
+      "shortDesc": "Tốc độ 7.2 Gbps, 3 band, MU-MIMO",
+      "description": "Router WiFi 6E tốc độ tối đa 7.2 Gbps, phát 3 băng tần đồng thời, công nghệ MU-MIMO giúp nhiều thiết bị kết nối mượt cùng lúc.",
+      "rating": 4,
+      "reviewCount": 123,
+      "stock": 60,
+      "freeShipping": true,
+      "warranty": "24 tháng",
+      "specs": [
+        "Tốc độ: lên đến 7.2 Gbps",
+        "Băng tần: Tri-band (2.4/5/6GHz)",
+        "Công nghệ: MU-MIMO, OFDMA",
+        "Cổng: 1x WAN 2.5G, 4x LAN 1G",
+        "Phủ sóng: đến 280m²"
+      ],
+      "review": {
+        "author": "Bảo",
+        "stars": 4,
+        "text": "Sóng khỏe, phủ đầy nhà 3 tầng, ổn định."
+      }
+    },
+    {
+      "id": "sp13",
+      "name": "iPad Air 11\"",
+      "category": "tablet",
+      "price": 15999000,
+      "oldPrice": 17999000,
+      "emoji": "📱",
+      "badge": "Sale",
+      "shortDesc": "Máy tính bảng mỏng nhẹ, chip M2 mạnh mẽ",
+      "description": "Máy tính bảng mỏng nhẹ trang bị chip M2, màn hình Liquid Retina 11 inch sắc nét, hỗ trợ Apple Pencil, phù hợp học tập và làm việc sáng tạo.",
+      "rating": 5,
+      "reviewCount": 134,
+      "stock": 88,
+      "freeShipping": true,
+      "warranty": "12 tháng",
+      "specs": [
+        "Chip: Apple M2",
+        "Màn hình: 11\" Liquid Retina",
+        "Bộ nhớ: 128GB/256GB",
+        "Hỗ trợ: Apple Pencil Pro",
+        "Pin: đến 10 giờ sử dụng"
+      ],
+      "review": {
+        "author": "Linh",
+        "stars": 5,
+        "text": "Mỏng nhẹ, viết note bằng Pencil rất thích."
+      }
+    },
+    {
+      "id": "sp14",
+      "name": "iPhone 12 Cũ 99%",
+      "category": "may-cu",
+      "price": 7990000,
+      "oldPrice": 9990000,
+      "emoji": "📱",
+      "badge": "Thu cũ",
+      "shortDesc": "Máy cũ like new, bảo hành 6 tháng",
+      "description": "Điện thoại cũ được kiểm tra kỹ 60 điểm, ngoại hình đẹp 99%, pin trên 85%, đầy đủ phụ kiện, bảo hành 6 tháng 1 đổi 1 nếu lỗi phần cứng.",
+      "rating": 4,
+      "reviewCount": 98,
+      "stock": 12,
+      "freeShipping": true,
+      "warranty": "6 tháng",
+      "specs": [
+        "Tình trạng máy: 99%",
+        "Pin: trên 85%",
+        "Bộ nhớ: 128GB",
+        "Kiểm tra: 60 điểm",
+        "Bảo hành: 6 tháng 1 đổi 1"
+      ],
+      "review": {
+        "author": "Sơn",
+        "stars": 4,
+        "text": "Máy đẹp như mới, pin còn tốt, giá hời."
+      }
+    },
+    {
+      "id": "sp15",
+      "name": "Sim 4G Trọn Gói 1 Năm",
+      "category": "sim",
+      "price": 599000,
+      "oldPrice": null,
+      "emoji": "📶",
+      "badge": "",
+      "shortDesc": "5GB/ngày, gọi miễn phí nội mạng",
+      "description": "Gói sim 4G trọn gói sử dụng 1 năm, tốc độ cao 5GB mỗi ngày, miễn phí gọi nội mạng dưới 20 phút, không phát sinh phí duy trì hàng tháng.",
+      "rating": 4,
+      "reviewCount": 210,
+      "stock": 999,
+      "freeShipping": true,
+      "warranty": "Không áp dụng",
+      "specs": [
+        "Dung lượng: 5GB/ngày",
+        "Thời hạn: 12 tháng",
+        "Gọi nội mạng: Miễn phí dưới 20 phút",
+        "Gọi ngoại mạng: 900đ/phút",
+        "Kích hoạt: Ngay sau khi nhận sim"
+      ],
+      "review": {
+        "author": "Hà",
+        "stars": 4,
+        "text": "Mạng khỏe, dùng cả năm không lo hết data."
+      }
+    },
+    {
+      "id": "sp16",
+      "name": "Gói Bảo Hành Mở Rộng",
+      "category": "dich-vu",
+      "price": 990000,
+      "oldPrice": null,
+      "emoji": "🛡️",
+      "badge": "",
+      "shortDesc": "Bảo hành thêm 12 tháng cho thiết bị",
+      "description": "Dịch vụ gia hạn bảo hành thêm 12 tháng cho các thiết bị điện tử, hỗ trợ sửa chữa và thay thế miễn phí trong trường hợp lỗi từ nhà sản xuất.",
+      "rating": 5,
+      "reviewCount": 45,
+      "stock": 999,
+      "freeShipping": false,
+      "warranty": "Không áp dụng",
+      "specs": [
+        "Thời hạn thêm: 12 tháng",
+        "Áp dụng: Điện thoại, laptop, tablet",
+        "Hỗ trợ: Sửa chữa, thay thế linh kiện",
+        "Kích hoạt: Trong vòng 30 ngày kể từ ngày mua máy",
+        "Hình thức: Điện tử, gửi qua email"
+      ],
+      "review": {
+        "author": "Yến",
+        "stars": 5,
+        "text": "An tâm hơn hẳn, lỡ máy hỏng cũng có chỗ bảo hành."
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Trọng Nhân",
+      "email": "nhan@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyễn Văn A",
+      "email": "vana@gmail.com",
+      "password": "123456"
+    }
+  ]
+}
